@@ -1,0 +1,19 @@
+app-adjust {
+    @extend .has-background-info;
+    * {
+        @extend .has-text-white;
+    }
+    .menu-label {
+        color: #55c5d1;
+    }
+    .menu-list {
+        li {
+            border-bottom: solid 1px #55c5d1;
+        }
+        a:hover {
+            @extend .has-background-info;
+            cursor: initial;
+            color: white !important;
+        }
+    }
+}

@@ -1,0 +1,194 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Télécharger
+    support: Support
+    features: Fonctionnalités
+    featuresItems:
+      - Formater
+      - Ajuster
+      - Assembler
+      - Exporter
+  footer:
+    baseline: Numérisation intuitive au format PDF disponible sur Google Play et App Store
+
+scanDrive:
+  meta:
+    title: Scanner portable PDF
+    keywords: scanner portable
+    description: Scanner portable PDF - Scan Drive - Obtenez des numérisations professionnelles intuitivement avec votre smartphone et le scanner portable Scan Drive
+  title: Scanner portable PDF
+  description: Obtenez des numérisations professionnelles intuitivement avec votre smartphone et le scanner portable Scan Drive
+  features:
+    format:
+      title: Formater
+      description: Définir la taille d'une numérisation
+    adjust:
+      title: Ajuster
+      description: Retoucher la numérisation
+    assemble:
+      title: Assembler
+      description: Fusionner plusieurs documents
+    export:
+      title: Exporter
+      description: Numériser en PDF
+  install: Installer
+
+format:
+  meta:
+    title: Format numérisation
+    keywords: format numérisation
+    description: Format numérisation - Scan Drive - Plusieurs formats de documents pour différentes tailles en portrait, paysage, couleur ou noir et blanc
+  title: Définir le format de la numérisation
+  description: Plusieurs formats de documents pour différentes tailles en portrait, paysage, couleur ou noir et blanc permettent de formater la numérisation
+  features:
+    format:
+      title: Définir le format
+      description: Pour contraindre la numérisation à respecter des proportions précises il est possible de choisir un format d'exportation PDF
+      formatList:
+        label: formats
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Carte de crédit et de visite
+        americanLetter: Lettre américaine
+    orientation:
+      title: Choisir l'orientation
+      description: Modifier l'orientation de la numérisation au format PDF
+      orientationList:
+        label: Orientations
+        landscape: Paysage
+        portrait: Portrait
+    colorimetry:
+      title: Régler la colorimetrie
+      description: Numériser en niveaux de gris pour avoir un rendu fidèle à celui d'une photocopie
+      colorimetryList:
+        label: Colorimétries
+        color: Couleur
+        grayScale: Niveaux de gris
+
+adjust:
+  meta:
+    title: Recadrer une image numérisée
+    keywords: recadrer image
+    description: Recadrer une image numérisée - Scan Drive - Recadrer de façon précise avec les poignées qui donnent un aperçu agrandi dans l'angle opposé au déplacement
+  title: Recadrer une image numérisée
+  description: Recadrer de façon précise avec les poignées qui donnent un aperçu agrandi dans l'angle opposé au déplacement
+  features:
+    crop:
+      title: Ajuster la découpe
+      description: L'aperçu en plein écran donne une meilleure appréciation de la numérisation effectuée. En sélectionnant une poignée des boutons d'action disparaissent pour laisser place dans le coin opposé à la poignée un zoom de la zone rognée
+      cropList:
+        label: luminosités
+        minimum: -100
+        maximum: "+100"
+    contrast:
+      title: Ajuster le contraste
+      description: En augmentant le contraste le texte peut être accentué ou diminué par rapport au fond, c'est au moment du recadrage et avant la validation que vous pouvez effectuer ces ajustements
+      contrastList:
+        label: contrasts
+        minimum: -100
+        maximum: "+100"
+    brightness:
+      title: Ajuster la luminosité
+      description: En augmentant la luminosité le fond peut être moins nuancé et plus monochrome afin de lisser un mauvais éclairage
+      brightnessList:
+        label: luminosités
+        minimum: -100
+        maximum: "+100"
+
+assemble:
+  meta:
+    title: Fusionner PDF
+    keywords: fusionner pdf
+    description: Fusionner PDF - Scan Drive -  Un aperçu de tous les documents permet de les réorganiser facilement avant de choisir un format d'export comme fusionner pdf
+  title: Fusionner PDF, plusieurs numérisations en un fichier
+  description: Un aperçu de tous les documents permet de les réorganiser facilement avant de choisir un format d'export comme fusionner pdf
+  features:
+    rename:
+      title: Renommer
+      description: Donnez un nom à la session de numérisation, il correspondra au nom du fichier exporté ou dans le cas d'exports en plusieurs fichiers il sera utilisé comme préfixe
+    organise:
+      title: Organiser
+      description: Modifiez la position d'un document avec un glissé déposé. Vous pouvez également sélectionner un document pour obtenir un aperçu ou encore le supprimer et en ajouter
+    rotate:
+      title: Rotation
+      description: Au cas ou la numérisation a été faite à l'envers ou à l'horizontale alors que le format est vertical, pas de soucis une dernière modification est possible
+    proportion:
+      title: Proportion
+      description: Vous voulez exporter une numérisation aux dimensions d'un format précis, il est possible de modifier les proportions d'une numérisation pour qu'elle y corresponde
+      proportionList:
+        label: proportions
+        minimum: Original
+        maximum: Ajusté
+
+export:
+  meta:
+    title: Scanner un document en PDF
+    keywords: scanner pdf
+    description: Scanner un document en PDF - Scan Drive - Le document numérisé peut s'exporter en un seul fichier au format PDF et unitairement au format JPG
+  title: Scanner un document en PDF
+  description: Le document numérisé peut s'exporter en un seul fichier au format PDF et unitairement au format JPG
+  features:
+    pdf:
+      title: PDF
+      description: L'ensemble des numérisations s'exporte dans un seul fichier PDF aux dimensions et orientation précisées au réglage du document
+    image:
+      title: Image
+      description: Les numérisations s'exportent dans des fichiers imagés au format ". jpg" pour chaque numérisation
+    text:
+      title: Text
+      description: Une reconnaissance et extraction du texte pour l'ensemble des numérisations s'exportent dans un fichier au format ".txt". Pour cette fonctionnalité un indicateur d'avancement du traitement propose d'être notifié de la phase d'initialisation puis d'extraction avec la possibilité d'annuler la demande
+
+download:
+  meta:
+    title: Télécharger Scanner
+    keywords: télécharger scanner
+    description: Télécharger Scanner - Scan Drive - Disponible sur Google Play et App Store
+  subtitle: Disponible sur Google Play et App Store
+
+policy:
+  meta:
+    title: Politique de confidentialité et d'utilisation
+    keywords: politique de confidentialité
+    description: Politique de confidentialité et d'utilisation - Scan Drive - Numérisation intuitive et responsable
+  title: Politique de confidentialité et d'utilisation
+  description: Numérisation intuitive et responsable
+  personal:
+    title: Information personelle
+    content: Aucune information personnelle n'est ne collecter ni transmise à des services tiers
+  storage:
+    title: Stockage
+    content: Aucune information n'est stockée sur votre appareil sans votre propre action explicite liée à la sauvegarde des fichiers
+  authorization:
+    title: Autorisations
+    content: Scan Drive vous demande d'autoriser l'utilisation de la caméra uniquement quand vous en avez besoin. Scan Drive vous demande l'autorisation pour stocker des fichiers sur votre appareil uniquement quand vous le demandez explicitement
+  content:
+    title: Contenu
+    content: L'ensemble du contenu est accessible sans connexion internet requise
+  scanDrive:
+    - Scan Drive estun produit numérique de la société à action anonyme SEEREN RCS 535 247 936 00011 Code APE 6209Z depuis le 15 octobre 2011. Siège social 1 Impasse des Oeillets Agde 34300 - France, spécialisée dans le secteur d'activité des autres activités informatiques. Cyril Ichti est le directeur de la publication et responsable de la rédaction
+    - Seeren ne saurait être tenu pour responsable en aucune manière d’une mauvaise utilisation du service. En utilisant l'application, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront être modifiées à tout moment et sans préavis
+    - La reproduction partielle des textes, images, documents du site sur un support papier sont autorisées, sous réserve de gratuité de la diffusion, sans modification ou altérations et sous réserve de faire apparaitre l'adresse source ainsi que la mention copyright - tout droits réservés Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Support Scan Drive
+    keywords: support scan drive
+    description: Support Scan Drive - Scan Drive - Disponible sur Google Play et App Store
+  title: Support
+  description: En cas de remarques ou de problèmes
+  mail:
+    title: Contactez nous par écrit
+    content: Vous pouvez nous contacter par mail avec un support actif
+  online:
+    title: Contribuez ouvertement
+    content: Vous pouvez déclarer une remarque ou un problème visible par tous afin de déclencher une réponse technique avec la mise à disposition d'une mise à jour de l'application
+
+notFound:
+  meta:
+    title: Page Non trouvé
+    keywords: not found
+    description: La page n'existe pas

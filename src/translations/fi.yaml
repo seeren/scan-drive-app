@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Ladata
+    support: Tuki
+    features: Ominaisuudet
+    featuresItems:
+      - Muoto
+      - Säätää
+      - Koota
+      - Viedä
+  footer:
+    baseline: Intuitiivinen skannaus PDF-muotoon saatavilla Google Playsta ja App Storesta
+
+scanDrive:
+  meta:
+    title: Kannettava PDF-skanneri
+    keywords: kannettava skanneri
+    description: Kannettava PDF-skanneri - Scan Drive - Hanki ammattimaisia ​​skannauksia intuitiivisesti älypuhelimellasi ja kannettavalla Scan Drive -skannerilla
+  title: Kannettava PDF-skanneri
+  description: Hanki ammattimaisia ​​skannauksia intuitiivisesti älypuhelimellasi ja kannettavalla Scan Drive -skannerilla
+  features:
+    format:
+      title: Muoto
+      description: Aseta skannauksen koko
+    adjust:
+      title: Säätää
+      description: Retusoi skannaus
+    assemble:
+      title: Koota
+      description: Yhdistä useita asiakirjoja
+    export:
+      title: Viedä
+      description: Skannaa PDF-muotoon
+  install: Asentaa
+
+format:
+  meta:
+    title: Skannauskoko
+    keywords: skannauskoko
+    description: Skannausmuoto - Skannausasema - Useita asiakirjamuotoja erikokoisille pysty-, vaaka-, väri- tai mustavalkoisena
+  title: Aseta skannauskoko
+  description: Useat asiakirjamuodot erikokoisille pysty-, vaaka-, väri- tai mustavalkoisille mahdollistavat muotoiluskannauksen
+  features:
+    format:
+      title: Määritä muoto
+      description: Jos haluat pakottaa skannauksen noudattamaan tarkkoja mittasuhteita, on mahdollista valita PDF-vientimuoto
+      formatList:
+        label: koot
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Luotto- ja käyntikortti
+        americanLetter: Amerikkalainen kirje
+    orientation:
+      title: Valitse suunta
+      description: Muuta skannauksen suunta PDF-muotoon
+      orientationList:
+        label: Ohjaus
+        landscape: Maaseutu
+        portrait: Muotokuva
+    colorimetry:
+      title: Säädä kolorimetriaa
+      description: Skannaa harmaasävyinä, jotta saat valokopion uskollisen renderöinnin 
+      colorimetryList:
+        label: Kolorimetria 
+        color: Väri
+        grayScale: Harmaan sävyt
+
+adjust:
+  meta:
+    title: Rajaa skannattu kuva
+    keywords: rajaa kuvaa
+    description: Rajaa skannattu kuva - Scan Drive - Rajaa tarkasti kahvoilla, jotka antavat suurennetun esikatselun liikkeen vastakkaisessa kulmassa
+  title: Rajaa skannattu kuva
+  description: Rajaa tarkasti kahvoilla, jotka antavat suurennetun esikatselun liikkeen vastakkaisessa kulmassa
+  features:
+    crop:
+      title: Säädä katkaisua
+      description: Koko näytön esikatselu antaa paremman käsityksen suoritetusta skannauksesta. Kun valitset kahvan, toimintopainikkeet katoavat, jotta kahvaa vastapäätä olevaan kulmaan jää tilaa rajatun alueen zoomaukselle
+      cropList:
+        label: kirkkaus
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Säädä kontrastia
+      description: Lisäämällä kontrastia tekstiä voidaan korostaa tai pienentää suhteessa taustaan, voit tehdä nämä säädöt rajauksen yhteydessä ja ennen vahvistusta
+      contrastList:
+        label: kontrasteja
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Säädä kirkkautta
+      description: Lisäämällä kirkkautta tausta voi olla vähemmän vivahteikas ja yksivärisempi huonon valaistuksen tasoittamiseksi
+      brightnessList:
+        label: kirkkaus
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: Yhdistä PDF
+    keywords: yhdistä PDF
+    description: Yhdistä PDF - skannausasema - Kaikkien asiakirjojen esikatselu helpottaa niiden järjestämistä uudelleen ennen vientimuodon, kuten yhdistä pdf:n valitsemista
+  title: Yhdistä PDF, useita skannauksia yhdeksi tiedostoksi
+  description: Kaikkien asiakirjojen esikatselu helpottaa niiden järjestämistä uudelleen ennen vientimuodon, kuten yhdistämis-pdf, valitsemista
+  features:
+    rename:
+      title: Nimeä uudelleen
+      description: Anna skannausistunnolle nimi, se vastaa viedyn tiedoston nimeä tai jos viedään useaan tiedostoon, sitä käytetään etuliitteenä
+    organise:
+      title: Järjestää
+      description: Muuta asiakirjan sijaintia vetämällä ja pudottamalla. Voit myös valita asiakirjan esikatsellaksesi tai poistaaksesi sen ja lisätäksesi lisää
+    rotate:
+      title: Pyöritä
+      description: Jos skannaus tehtiin ylösalaisin tai vaakasuunnassa muodon ollessa pystysuora, ei hätää, lopullinen muokkaus on mahdollista
+    proportion:
+      title: Suhde
+      description: Jos haluat viedä skannauksen tietyn muodon mitoilla, voit muokata skannauksen mittasuhteita vastaamaan sitä
+      proportionList:
+        label: mittasuhteet
+        minimum: Alkuperäinen
+        maximum: Säädetty
+    export:
+      title: Viedä
+      description: Vie jokainen skannaus kuvana tai yhdistä ne PDF-muotoon. Tekstintunnistus (OCR) on saatavilla kaikissa skannauksissa tekstimuodossa
+      exportList:
+        label: laajennuksia
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Skannaa asiakirja PDF-muotoon
+    keywords: pdf skanneri
+    description: Skannaa asiakirja PDF-muodossa - Scan Drive - Skannattu asiakirja voidaan viedä yhtenä tiedostona PDF-muodossa ja yksitellen JPG-muodossa
+  title: Skannaa asiakirja PDF-muotoon
+  description: Skannattu asiakirja voidaan viedä yhtenä tiedostona PDF-muodossa ja yksitellen JPG-muodossa
+  features:
+    pdf:
+      title: PDF
+      description: Kaikki skannaukset viedään yhdeksi PDF-tiedostoksi, jonka mitat ja suunta on määritetty asiakirjaa määritettäessä
+    image:
+      title: Kuva
+      description: Skannata vienti kuvatiedostoihin ".jpg"-muodossa jokaisella skannauksella
+    text:
+      title: Teksti
+      description: Kaikkien skannausten tekstin tunnistus ja poiminta viedään tiedostoon ".txt"-muodossa. Tätä ominaisuutta varten käsittelyn edistymisen ilmaisin ehdottaa, että sinulle ilmoitetaan alustus- ja sitten purkuvaiheesta ja mahdollisuus peruuttaa pyyntö
+
+download:
+  meta:
+    title: Lataa skanneri
+    keywords: lataa skanneri
+    description: Lataa Scanner - Scan Drive - saatavana Google Playsta ja App Storesta
+  subtitle: Saatavilla Google Playsta ja App Storesta
+
+policy:
+  meta:
+    title: Tietosuoja- ja käyttökäytäntö
+    keywords: Tietosuojakäytäntö
+    description: Tietosuoja- ja käyttökäytäntö - Scan Drive - Intuitiivinen ja vastuullinen skannaus
+  title: Tietosuoja- ja käyttökäytäntö
+  description: Intuitiivinen ja vastuullinen skannaus
+  personal:
+    title: Henkilökohtaisia ​​tietoja
+    content: Henkilötietoja ei kerätä tai siirretä kolmansien osapuolien palveluihin
+  storage:
+    title: Varastointi
+    content: Mitään tietoja ei tallenneta laitteellesi ilman omaa nimenomaista tiedostojen varmuuskopiointiin liittyvää toimintaa
+  authorization:
+    title: Käyttöoikeudet
+    content: Scan Drive pyytää sinua sallimaan kameran käytön vain silloin, kun tarvitset sitä. Scan Drive pyytää lupaa tallentaa tiedostoja laitteellesi vain, kun pyydät sitä nimenomaisesti
+  content:
+    title: Sisältö
+    content: Kaikki sisältö on käytettävissä ilman Internet-yhteyttä
+  scanDrive:
+    - Scan Drive on julkisen osakeyhtiön SEEREN RCS 535 247 936 00011, koodi APE 6209Z, digitaalinen tuote 15. lokakuuta 2011 lähtien. Pääkonttori 1 Impasse des Oeillets Agde 34300 - Ranska, erikoistunut muihin tietokonetoimintoihin. Cyril Ichti on julkaisujohtaja ja toimituspäällikkö
+    - Seeren ei ole millään tavalla vastuussa palvelun sopimattomasta käytöstä. Käyttämällä sovellusta vahvistat lukeneesi nämä ehdot ja hyväksyneesi ne. Näitä voidaan muuttaa milloin tahansa ilman erillistä ilmoitusta
+    - Sivuston tekstien, kuvien, asiakirjojen osittainen jäljentäminen paperille on sallittua, vapaasti levitettävä, ilman muutoksia tai muutoksia ja edellyttää lähdeosoitteen sekä tekijänoikeusilmoituksen näyttämistä - kaikki oikeudet pidätetään Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Tuki Scan Drive
+    keywords: tuki scan drive
+    description: Tuki Scan Drive - Scan Drive - Saatavilla Google Playsta ja App Storesta
+  title: Tuki
+  description: Huomautuksia tai ongelmia
+  mail:
+    title: Ota meihin yhteyttä kirjallisesti
+    content: Voit ottaa meihin yhteyttä sähköpostitse aktiivisella tuella
+  online:
+    title: Osallistu avoimesti
+    content: Voit ilmoittaa huomautuksen tai ongelman kaikille näkyväksi käynnistääksesi teknisen vastauksen sovelluksen päivityksen saatavuudessa
+
+notFound:
+  meta:
+    title: Sivua ei löydetty
+    keywords: ei löydetty
+    description: Sivua ei ole olemassa

@@ -1,0 +1,15 @@
+@import "./../../../../../assets/scss/@backgrounds.scss";
+
+app-feature-header {
+    display: block;
+    .columns {
+        margin: 0;
+    }
+    .capture {
+        @include backgrounds;
+        hyphens: auto;
+    }
+    .hero-body {
+        max-width: 60%;
+    }
+}

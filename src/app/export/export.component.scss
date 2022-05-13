@@ -1,0 +1,19 @@
+app-export {
+    @extend .has-background-danger;
+    * {
+        @extend .has-text-white;
+    }
+    .menu-label {
+        color: #c85f89;
+    }
+    .menu-list {
+        li {
+            border-bottom: solid 1px #c85f89;
+        }
+        a:hover {
+            @extend .has-background-danger;
+            cursor: initial;
+            color: white !important;
+        }
+    }
+}

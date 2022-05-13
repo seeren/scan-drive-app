@@ -1,0 +1,62 @@
+<section class="hero is-medium is-dark columns">
+    <div class="hero-body column is-offset-2-desktop is-8-desktop">
+        <p class="title is-size-2">
+            ${ translate.get('policy').title }
+        </p>
+        <p class="subtitle">
+            ${ translate.get('policy').description }.
+        </p>
+    </div>
+</section>
+<section class="hero columns">
+    <div class="hero-body column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-3 title is-relative" itemscope="featureList">
+            ${ translate.get('policy').personal.title }
+            <span class="title-icon material-icons">account_circle</span>
+        </h1>
+        <p class="subtitle mt-6">
+            ${ translate.get('policy').personal.content }.
+        </p>
+    </div>
+</section>
+<section class="hero columns">
+    <div class="hero-body column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-3 title is-relative" itemscope="featureList">
+            ${ translate.get('policy').storage.title }
+            <span class="title-icon material-icons">save</span>
+        </h1>
+        <p class="subtitle mt-6">
+            ${ translate.get('policy').storage.content }.
+        </p>
+    </div>
+</section>
+<section class="hero columns">
+    <div class="hero-body column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-3 title is-relative" itemscope="featureList">
+            ${ translate.get('policy').authorization.title }
+            <span class="title-icon material-icons">check_circle</span>
+        </h1>
+        <p class="subtitle mt-6">
+            ${ translate.get('policy').authorization.content }.
+        </p>
+    </div>
+</section>
+<section class="hero columns">
+    <div class="hero-body column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-3 title is-relative" itemscope="featureList">
+            ${ translate.get('policy').content.title }
+            <span class="title-icon material-icons">wifi</span>
+        </h1>
+        <p class="subtitle mt-6">
+            ${ translate.get('policy').content.content }.
+        </p>
+    </div>
+</section>
+<section class="hero columns is-dark">
+    <div class="hero-body column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-3 title is-relative">
+            Scan Drive
+        </h1>
+        ${ translate.get('policy').scanDrive.map(item => `<p class="subtitle mt-6">${ item }.</p>`).join('') }
+    </div>
+</section>

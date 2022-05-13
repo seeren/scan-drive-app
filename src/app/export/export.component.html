@@ -1,0 +1,43 @@
+<app-feature-header></app-feature-header>
+<section class="hero is-large columns">
+    <div class="hero-body is-medium-padding column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-2 title has-text-white is-relative" itemscope="featureList">
+            ${ translate.get('export').features.pdf.title }
+            <span class="title-icon material-icons has-text-white">picture_as_pdf</span>
+        </h1>
+        <p class="subtitle has-text-white mt-6">
+            ${ translate.get('export').features.pdf.description }.
+        </p>
+    </div>
+</section>
+<section class="hero is-large columns">
+    <div class="hero-body is-medium-padding column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-2 title has-text-white is-relative" itemscope="featureList">
+            ${ translate.get('export').features.image.title }
+            <span class="title-icon material-icons has-text-white">image</span>
+        </h1>
+        <p class="subtitle has-text-white mt-6">
+            ${ translate.get('export').features.image.description }.
+        </p>
+    </div>
+</section>
+<section class="hero is-large columns">
+    <div class="hero-body is-medium-padding column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-2 title has-text-white is-relative" itemscope="featureList">
+            ${ translate.get('export').features.text.title }
+            <span class="title-icon material-icons has-text-white">description</span>
+        </h1>
+        <p class="subtitle has-text-white mt-6">
+            ${ translate.get('export').features.text.description }.
+        </p>
+    </div>
+</section>
+<section class="hero is-medium is-relative is-dark">
+    <div class="hero-body has-text-centered">
+        <button class="button is-large is-rounded is-white" onclick="download()">
+            <span class="material-icons">arrow_forward_ios</span>
+            <a class="has-text-dark" href="/${ translate.getLanguage() }/download">${
+                translate.get('app').navbar.download }</a>
+        </button>
+    </div>
+</section>

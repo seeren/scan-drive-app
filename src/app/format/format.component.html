@@ -1,0 +1,76 @@
+<app-feature-header></app-feature-header>
+
+<section class="hero is-large columns">
+    <div class="hero-body is-medium-padding column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-2 title has-text-white is-relative" itemscope="featureList">
+            ${ translate.get('format').features.format.title }
+            <span class="title-icon material-icons has-text-white">aspect_ratio</span>
+        </h1>
+        <p class="subtitle has-text-white mt-6">
+            ${ translate.get('format').features.format.description }.
+        </p>
+        <div class="menu is-dark">
+            <p class="menu-label">
+                ${ translate.get('format').features.format.formatList.label }
+            </p>
+            <ul class="menu-list is-dark">
+                <li><a>${ translate.get('format').features.format.formatList.a3 }</a></li>
+                <li><a>${ translate.get('format').features.format.formatList.a4 }</a></li>
+                <li><a>${ translate.get('format').features.format.formatList.a5 }</a></li>
+                <li><a>${ translate.get('format').features.format.formatList.a6 }</a></li>
+                <li><a>${ translate.get('format').features.format.formatList.a7 }</a></li>
+                <li><a>${ translate.get('format').features.format.formatList.creditCard }</a></li>
+                <li><a>${ translate.get('format').features.format.formatList.americanLetter }</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="hero is-large columns">
+    <div class="hero-body is-medium-padding column is-offset-2-desktop is-8-desktop">
+        <h1 class=" is-size-2 title has-text-white is-relative" itemscope="featureList">
+            ${ translate.get('format').features.orientation.title }
+            <span class="title-icon material-icons has-text-white">autorenew</span>
+        </h1>
+        <p class="subtitle has-text-white mt-6">
+            ${ translate.get('format').features.orientation.description }.
+        </p>
+        <div class="menu is-dark">
+            <p class="menu-label has-text-white">
+                ${ translate.get('format').features.orientation.orientationList.label }
+            </p>
+            <ul class="menu-list is-dark">
+                <li><a>${ translate.get('format').features.orientation.orientationList.portrait }</a></li>
+                <li><a>${ translate.get('format').features.orientation.orientationList.landscape }</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="hero is-large columns">
+    <div class="hero-body is-medium-padding column is-offset-2-desktop is-8-desktop">
+        <h1 class="is-size-2 title has-text-white is-relative" itemscope="featureList">
+            ${ translate.get('format').features.colorimetry.title }
+            <span class="title-icon material-icons has-text-white">camera</span>
+        </h1>
+        <p class="subtitle has-text-white mt-6">
+            ${ translate.get('format').features.colorimetry.description }.
+        </p>
+        <div class="menu is-dark">
+            <p class="menu-label has-text-white">
+                ${ translate.get('format').features.colorimetry.colorimetryList.label }
+            </p>
+            <ul class="menu-list is-dark">
+                <li><a>${ translate.get('format').features.colorimetry.colorimetryList.color }</a></li>
+                <li><a>${ translate.get('format').features.colorimetry.colorimetryList.grayScale }</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-medium is-relative is-info">
+    <div class="hero-body has-text-centered">
+        <button class="button is-large is-rounded is-dark" onclick="adjust()">
+            <span class="material-icons">arrow_forward_ios</span>
+            <a class="has-text-white" href="/${ translate.getLanguage() }/adjust">${ translate.get('app').navbar.featuresItems[1] }</a>
+        </button>
+    </div>
+</section>

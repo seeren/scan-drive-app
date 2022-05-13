@@ -1,0 +1,16 @@
+app-format {
+    @extend .has-background-dark;
+    * {
+        @extend .has-text-white;
+    }
+    .menu-list {
+        li {
+            border-bottom: solid 1px #7a7a7a;
+        }
+        a:hover {
+            @extend .has-background-dark;
+            cursor: initial;
+            color: white !important;
+        }
+    }
+}

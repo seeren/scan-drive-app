@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Att ladda ned
+    support: Stöd
+    features: Funktioner
+    featuresItems:
+      - Formatera
+      - Att justera
+      - Att bygga ihop
+      - Exportera
+  footer:
+    baseline: Intuitiv skanning till PDF tillgänglig på Google Play och App Store
+
+scanDrive:
+  meta:
+    title: Bärbar PDF-skanner
+    keywords: bärbar skanner
+    description: PDF Portable Scanner - Scan Drive - Få professionella skanningar intuitivt med din smartphone och Scan Drive Portable Scanner
+  title: Bärbar PDF-skanner
+  description: Få professionella skanningar intuitivt med din smartphone och den bärbara Scan Drive-skannern
+  features:
+    format:
+      title: Formatera
+      description: Ställ in storleken på en skanning
+    adjust:
+      title: Att justera
+      description: Retuschskanning
+    assemble:
+      title: Att bygga ihop
+      description: Slå samman flera dokument
+    export:
+      title: Exportera
+      description: Skanna till PDF
+  install: Installera
+
+format:
+  meta:
+    title: Skanningsstorlek
+    keywords: skanningsstorlek
+    description: Scan Format - Scan Drive - Flera dokumentformat för olika storlekar i stående, liggande, färg eller svartvitt
+  title: Ställ in skanningsstorlek
+  description: Flera dokumentformat för olika storlekar i stående, liggande, färg eller svartvitt tillåter formateringsskanning
+  features:
+    format:
+      title: Definiera format
+      description: För att tvinga skanningen att respektera exakta proportioner är det möjligt att välja ett PDF-exportformat
+      formatList:
+        label: storlekar
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Kredit- och visitkort
+        americanLetter: Amerikanskt brev
+    orientation:
+      title: Välj orientering
+      description: Ändra riktningen för skanning till PDF
+      orientationList:
+        label: Vägledning
+        landscape: Landsbygden
+        portrait: Porträtt
+    colorimetry:
+      title: Justera kolorimetrin
+      description: Skanna i gråskala för att få en rendering trogen en fotokopia
+      colorimetryList:
+        label: Kolorimetri 
+        color: Färg
+        grayScale: Nyanser av grå
+
+adjust:
+  meta:
+    title: Beskär en skannad bild
+    keywords: beskära bild
+    description: Beskär en skannad bild - Skanna Drive - Beskär exakt med handtagen som ger en förstorad förhandsvisning i motsatt vinkel av rörelsen
+  title: Beskär en skannad bild
+  description: Beskär exakt med handtagen som ger en förstorad förhandstitt i motsatt vinkel till rörelsen
+  features:
+    crop:
+      title: Justera utskärning
+      description: Förhandsvisningen i helskärm ger en bättre uppfattning om den skanning som utförs. Genom att välja ett handtag försvinner åtgärdsknapparna för att göra plats i hörnet mittemot handtaget för en zoomning av det beskurna området
+      cropList:
+        label: ljusstyrka
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Justera kontrasten
+      description: Genom att öka kontrasten kan texten accentueras eller förminskas i förhållande till bakgrunden, det är vid beskärningstillfället och före validering som du kan göra dessa justeringar
+      contrastList:
+        label: kontraster
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Justera ljusstyrkan
+      description: Genom att öka ljusstyrkan kan bakgrunden bli mindre nyanserad och mer monokromatisk för att jämna ut dålig belysning
+      brightnessList:
+        label: ljusstyrka
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: Slå samman PDF
+    keywords: slå samman PDF
+    description: Sammanfoga PDF - Scan Drive - En förhandsgranskning av alla dokument gör det enkelt att omorganisera dem innan du väljer ett exportformat som sammanfoga pdf
+  title: Slå ihop PDF, flera skanningar till en fil
+  description: En förhandsgranskning av alla dokument gör det enkelt att omorganisera dem innan du väljer ett exportformat som merge pdf
+  features:
+    rename:
+      title: Döp om
+      description: Ge ett namn till skanningssessionen, den kommer att motsvara namnet på den exporterade filen eller vid export av flera filer kommer den att användas som ett prefix
+    organise:
+      title: Ordna
+      description: Ändra ett dokuments position genom att dra och släppa. Du kan också välja ett dokument för att förhandsgranska eller ta bort det och lägga till fler
+    rotate:
+      title: Snurra
+      description: Om skanningen gjordes upp och ner eller horisontellt när formatet är vertikalt, inga bekymmer, en sista ändring är möjlig
+    proportion:
+      title: Andel
+      description: Du vill exportera en skanning med måtten för ett specifikt format, det är möjligt att ändra proportionerna för en skanning för att matcha den
+      proportionList:
+        label: proportioner
+        minimum: Original
+        maximum: Justerad
+    export:
+      title: Exportera
+      description: Exportera varje skanning som en bild eller slå samman dem till PDF-format. Textigenkänning (OCR) i alla skanningar erbjuds med textformatet
+      exportList:
+        label: förlängningar
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Skanna ett dokument till PDF
+    keywords: pdf-skanner
+    description: Skanna ett dokument i PDF - Skanna Drive - Det skannade dokumentet kan exporteras i en enda fil i PDF-format och individuellt i JPG-format
+  title: Skanna ett dokument till PDF
+  description: Det skannade dokumentet kan exporteras i en enda fil i PDF-format och individuellt i JPG-format
+  features:
+    pdf:
+      title: PDF
+      description: Alla skanningar exporteras i en enda PDF-fil med de mått och orientering som anges när dokumentet ställs in
+    image:
+      title: Bild
+      description: Skannar export till bildfiler i ".jpg"-format för varje skanning
+    text:
+      title: Text
+      description: Textigenkänning och extrahering för alla skanningar exporteras i en fil i ".txt"-format. För den här funktionen föreslår en bearbetningsförloppsindikator att bli meddelad om initialiserings- och sedan extraktionsfasen med möjlighet att avbryta begäran
+
+download:
+  meta:
+    title: Ladda ner Scanner
+    keywords: ladda ner Scanner
+    description: Ladda ner Scanner - Scan Drive - Tillgänglig på Google Play och App Store
+  subtitle: Finns på Google Play och App Store
+
+policy:
+  meta:
+    title: Sekretess- och användningspolicy
+    keywords: integritetspolicy
+    description: Sekretess- och användningspolicy - Scan Drive - Intuitiv och ansvarsfull skanning
+  title: Sekretess- och användningspolicy
+  description: Intuitiv och ansvarsfull skanning
+  personal:
+    title: Personlig information
+    content: Ingen personlig information samlas in eller överförs till tredje parts tjänster
+  storage:
+    title: Lagring
+    content: Ingen information lagras på din enhet utan din egen explicita åtgärd relaterad till säkerhetskopiering av filer
+  authorization:
+    title: Behörigheter
+    content: Scan Drive ber dig att endast tillåta kameraanvändning när du behöver den. Scan Drive ber dig om tillåtelse att lagra filer på din enhet endast när du uttryckligen ber om det
+  content:
+    title: Innehåll
+    content: Allt innehåll är tillgängligt utan att en internetanslutning krävs
+  scanDrive:
+    - Scan Drive är en digital produkt från aktiebolaget SEEREN RCS 535 247 936 00011 Kod APE 6209Z sedan 15 oktober 2011. Huvudkontor 1 Impasse des Oeillets Agde 34300 - Frankrike, specialiserat på affärssektorn för annan datorverksamhet. Cyril Ichti är publiceringschef och redaktionschef
+    - Seeren kan inte hållas ansvarigt på något sätt för felaktig användning av tjänsten. Genom att använda applikationen bekräftar du att du har läst dessa villkor och att du har accepterat dem. Dessa kan ändras när som helst och utan föregående meddelande
+    - Delvis återgivning av texter, bilder, dokument från webbplatsen på ett pappersmedium är tillåten, med förbehåll för gratis distribution, utan ändringar eller ändringar och under förutsättning att källadressen samt upphovsrättsmeddelandet visas - alla rättigheter förbehålls Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Stöd Scan Drive
+    keywords: stöd scan drive
+    description: Stöd Scan Drive - Scan Drive - Finns på Google Play och App Store
+  title: Support
+  description: Vid anmärkningar eller problem
+  mail:
+    title: Kontakta oss skriftligen
+    content: Du kan kontakta oss via e-post med aktiv support
+  online:
+    title: Bidra öppet
+    content: Du kan förklara en anmärkning eller ett problem synligt för alla för att utlösa ett tekniskt svar med tillgången till en uppdatering av applikationen
+
+notFound:
+  meta:
+    title: Sidan hittas inte
+    keywords: hittades inte
+    description: Sidan finns inte

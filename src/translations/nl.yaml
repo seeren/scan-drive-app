@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Downloaden
+    support: Steun
+    features: Functies
+    featuresItems:
+      - Formaat
+      - Aanpassen
+      - Verzamelen
+      - Exporteren
+  footer:
+    baseline: Intuïtief scannen naar PDF beschikbaar in Google Play en App Store
+
+scanDrive:
+  meta:
+    title: Draagbare PDF-scanner
+    keywords: draagbare scanner
+    description: Draagbare PDF-scanner - Scan Drive - Maak intuïtief professionele scans met uw smartphone en de draagbare Scan Drive-scanner
+  title: Draagbare PDF-scanner
+  description: Maak intuïtief professionele scans met uw smartphone en de draagbare Scan Drive-scanner
+  features:
+    format:
+      title: Formaat
+      description: De grootte van een scan instellen
+    adjust:
+      title: Aanpassen
+      description: Scan retoucheren
+    assemble:
+      title: Verzamelen
+      description: Meerdere documenten samenvoegen
+    export:
+      title: Exporteren
+      description: Scannen naar PDF
+  install: Installeren
+
+format:
+  meta:
+    title: Scanformaat
+    keywords: scanformaat
+    description: Scanformaat - Scan Drive - Meerdere documentformaten voor verschillende formaten in staand, liggend, kleur of zwart-wit
+  title: Scanformaat instellen
+  description: Meerdere documentformaten voor verschillende formaten in staand, liggend, kleur of zwart-wit maken scannen op formattering mogelijk
+  features:
+    format:
+      title: Definieer formaat
+      description: Om de scan te forceren om nauwkeurige verhoudingen te respecteren, is het mogelijk om een ​​PDF-exportformaat te kiezen
+      formatList:
+        label: maten
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Creditcard en visitekaartje
+        americanLetter: Amerikaanse letter
+    orientation:
+      title: Kies oriëntatie
+      description: De oriëntatie van het scannen wijzigen in PDF
+      orientationList:
+        label: De begeleiding
+        landscape: Platteland
+        portrait: Portret
+    colorimetry:
+      title: Pas de colorimetrie aan
+      description: Scan in grijstinten voor een weergave die trouw is aan die van een fotokopie
+      colorimetryList:
+        label: Colorimetrie 
+        color: Kleur
+        grayScale: Tinten grijs
+
+adjust:
+  meta:
+    title: Een gescande afbeelding bijsnijden
+    keywords: afbeelding bijsnijden
+    description: Een gescande afbeelding bijsnijden - Scan Drive - Snijd precies bij met de handvatten die een vergroot voorbeeld geven in de tegenovergestelde hoek van de verplaatsing
+  title: Een gescande afbeelding bijsnijden
+  description: Snijd precies bij met de handvatten die een vergroot voorbeeld geven in de tegenovergestelde hoek van de beweging
+  features:
+    crop:
+      title: Uitsparing aanpassen
+      description: De voorbeeldweergave op volledig scherm geeft een beter beeld van de uitgevoerde scan. Door een handvat te selecteren, verdwijnen de actieknoppen om ruimte te maken in de hoek tegenover het handvat voor een zoom van het bijgesneden gebied
+      cropList:
+        label: helderheid
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Contrast aanpassen
+      description: Door het contrast te vergroten, kan de tekst worden geaccentueerd of verkleind ten opzichte van de achtergrond, het is op het moment van bijsnijden en vóór validatie dat u deze aanpassingen kunt maken
+      contrastList:
+        label: contrasten
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Helderheid aanpassen
+      description: Door de helderheid te verhogen, kan de achtergrond minder genuanceerd en meer monochroom zijn om slechte verlichting glad te strijken
+      brightnessList:
+        label: helderheid
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: Samenvoegen PDF
+    keywords: samenvoegen PDF
+    description: PDF samenvoegen - Scan Drive - Een voorbeeld van alle documenten maakt het gemakkelijk om ze te reorganiseren voordat u een exportformaat kiest, zoals pdf samenvoegen
+  title: PDF samenvoegen, meerdere scans in één bestand
+  description: Een voorbeeld van alle documenten maakt het gemakkelijk om ze te reorganiseren voordat u een exportformaat kiest, zoals pdf samenvoegen
+  features:
+    rename:
+      title: Hernoemen
+      description: Geef een naam aan de scansessie, deze komt overeen met de naam van het geëxporteerde bestand of in het geval van export in meerdere bestanden wordt het als voorvoegsel gebruikt 
+    organise:
+      title: Regelen
+      description: Wijzig de positie van een document met slepen en neerzetten. U kunt ook een document selecteren om een ​​voorbeeld van te bekijken of het te verwijderen en meer toe te voegen
+    rotate:
+      title: Draaien
+      description: Als de scan ondersteboven is gedaan of horizontaal wanneer het formaat verticaal is, geen zorgen, een laatste wijziging is mogelijk
+    proportion:
+      title: Proportie
+      description: U wilt een scan exporteren met de afmetingen van een specifiek formaat, het is mogelijk om de proporties van een scan aan te passen zodat deze overeenkomen
+      proportionList:
+        label: proporties
+        minimum: Origineel
+        maximum: Bijgestelde
+    export:
+      title: Exporteren
+      description: Exporteer elke scan als afbeelding of voeg ze samen in PDF-formaat. Tekstherkenning (OCR) voor alle scans wordt aangeboden met het tekstformaat
+      exportList:
+        label: extensies
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Scan een document naar PDF
+    keywords: pdf-scanner
+    description: Scan een document in PDF - Scan Drive - Het gescande document kan worden geëxporteerd in een enkel bestand in PDF-formaat en afzonderlijk in JPG-formaat
+  title: Scan een document naar PDF
+  description: Het gescande document kan worden geëxporteerd in een enkel bestand in PDF-formaat en afzonderlijk in JPG-formaat
+  features:
+    pdf:
+      title: PDF
+      description: Alle scans worden geëxporteerd in een enkel PDF-bestand met de afmetingen en richting die zijn opgegeven bij het instellen van het document
+    image:
+      title: Afbeelding
+      description: Scans exporteren naar afbeeldingsbestanden in ".jpg"-indeling voor elke scan
+    text:
+      title: Tekst
+      description: Tekstherkenning en extractie voor alle scans worden geëxporteerd in een bestand in ".txt"-formaat. Voor deze functie stelt een voortgangsindicator voor de verwerking voor om op de hoogte te worden gesteld van de initialisatie- en vervolgens extractiefase met de mogelijkheid om het verzoek te annuleren
+
+download:
+  meta:
+    title: Scanner downloaden
+    keywords: scanner downloaden
+    description: Scanner downloaden - Scan Drive - Beschikbaar in Google Play en App Store
+  subtitle: Beschikbaar in Google Play en App Store
+
+policy:
+  meta:
+    title: Privacy- en gebruiksbeleid
+    keywords: privacybeleid
+    description: Privacy- en gebruiksbeleid - Scan Drive - Intuïtief en verantwoord scannen
+  title: Privacy- en gebruiksbeleid
+  description: Intuïtief en verantwoord scannen
+  personal:
+    title: Persoonsgegevens
+    content: Er wordt geen persoonlijke informatie verzameld of doorgegeven aan diensten van derden
+  storage:
+    title: Opslag
+    content: Er wordt geen informatie op uw apparaat opgeslagen zonder uw eigen expliciete actie met betrekking tot het maken van back-ups van bestanden
+  authorization:
+    title: Rechten
+    content: Scan Drive vraagt ​​u alleen cameragebruik toe te staan ​​wanneer u dit nodig heeft. Scan Drive vraagt ​​u alleen om toestemming om bestanden op uw apparaat op te slaan als u hier expliciet om vraagt
+  content:
+    title: Inhoud
+    content: Alle inhoud is toegankelijk zonder dat een internetverbinding vereist is
+  scanDrive:
+    - Scan Drive is een digitaal product van de naamloze vennootschap SEEREN RCS 535 247 936 00011 Code APE 6209Z sinds 15 oktober 2011. Hoofdkantoor 1 Impasse des Oeillets Agde 34300 - Frankrijk, gespecialiseerd in de zakelijke sector van andere computeractiviteiten. Cyril Ichti is de publicatiedirecteur en redactiemanager
+    - Seeren kan op geen enkele wijze aansprakelijk worden gesteld voor oneigenlijk gebruik van de dienst. Door de applicatie te gebruiken, erkent u deze voorwaarden te hebben gelezen en geaccepteerd. Deze kunnen op elk moment en zonder kennisgeving worden gewijzigd.
+    - De gedeeltelijke reproductie van de teksten, afbeeldingen, documenten van de site op een papieren drager is toegestaan, onder voorbehoud van gratis verspreiding, zonder wijziging of wijzigingen en onder voorbehoud van het weergeven van het bronadres en de copyrightvermelding - alle rechten voorbehouden Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Steun Scan Drive
+    keywords: steun scan drive
+    description: Steun Scan Drive - Scan Drive - Beschikbaar in Google Play en App Store
+  title: Steun
+  description: Bij opmerkingen of problemen
+  mail:
+    title: Neem schriftelijk contact met ons op
+    content: U kunt per e-mail contact met ons opnemen met actieve ondersteuning
+  online:
+    title: Draag openlijk bij
+    content: U kunt een opmerking of een probleem voor iedereen zichtbaar maken om een ​​technische reactie te activeren met de beschikbaarheid van een update van de applicatie
+
+notFound:
+  meta:
+    title: Pagina niet gevonden
+    keywords: niet gevonden
+    description: De pagina bestaat niet

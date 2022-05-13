@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Descargar
+    support: Apoyo
+    features: Características
+    featuresItems:
+      - Formato
+      - Ajustar
+      - Armar
+      - Exportar
+  footer:
+    baseline: Escaneo intuitivo a PDF disponible en Google Play y App Store
+
+scanDrive:
+  meta:
+    title: Escáner PDF portátil
+    keywords: escáner portátil
+    description: Escáner portátil PDF - Scan Drive - obtenga escaneos profesionales de forma intuitiva con su teléfono inteligente y el escáner portátil Scan Drive
+  title: Escáner PDF portátil
+  description: Obtenga escaneos profesionales de manera intuitiva con su teléfono inteligente y el escáner portátil Scan Drive
+  features:
+    format:
+      title: Formato
+      description: Establecer el tamaño de un escaneo
+    adjust:
+      title: Ajustar
+      description: Escaneo de retoque
+    assemble:
+      title: Armar
+      description: Combinar varios documentos
+    export:
+      title: Exportar
+      description: Escanear a PDF
+  install: Instalar
+
+format:
+  meta:
+    title: Tamaño de escaneo
+    keywords: tamaño de escaneo
+    description: Formato de escaneo - Unidad de escaneo - Múltiples formatos de documentos para diferentes tamaños en retrato, paisaje, color o blanco y negro
+  title: Establecer tamaño de escaneo
+  description: Múltiples formatos de documentos para diferentes tamaños en retrato, paisaje, color o blanco y negro permiten escanear con formato
+  features:
+    format:
+      title: Definir formato
+      description: Para forzar el escaneo a respetar proporciones precisas, es posible elegir un formato de exportación PDF
+      formatList:
+        label: formats
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Tarjeta de credito y de negocios
+        americanLetter: Carta americana
+    orientation:
+      title: Elige la orientación
+      description: Cambiar la orientación de escaneo a PDF
+      orientationList:
+        label: Guia
+        landscape: Campo
+        portrait: Retrato
+    colorimetry:
+      title: Ajustar la colorimetría 
+      description: Escanea en escala de grises para obtener una reproducción fiel a la de una fotocopia 
+      colorimetryList:
+        label: Colorimetría 
+        color: Color
+        grayScale: Sombras de Grey
+
+adjust:
+  meta:
+    title: Recortar una imagen escaneada
+    keywords: recortar foto
+    description: Recorta una imagen escaneada - Scan Drive - Recorta con precisión con los controladores que brindan una vista previa ampliada en el ángulo opuesto del movimiento
+  title: Recortar una imagen escaneada
+  description: Recorte con precisión con los controles que brindan una vista previa ampliada en el ángulo opuesto al movimiento
+  features:
+    crop:
+      title: Ajustar recorte
+      description: La vista previa a pantalla completa ofrece una mejor apreciación del escaneo realizado. Al seleccionar un controlador, los botones de acción desaparecen para dejar espacio en la esquina opuesta al controlador para un zoom del área recortada
+      cropList:
+        label: luminosidad
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Ajustar el contraste
+      description: Al aumentar el contraste se puede acentuar o disminuir el texto en relación con el fondo, es en el momento del recorte y antes de la validación que se pueden realizar estos ajustes
+      contrastList:
+        label: contrastes
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Ajustar brillo
+      description: Al aumentar el brillo, el fondo puede tener menos matices y ser más monocromático para suavizar la mala iluminación.
+      brightnessList:
+        label: luminosidad
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: Fusionar PDF
+    keywords: fusionar PDF
+    description: Fusionar PDF - Escanear unidad - una vista previa de todos los documentos facilita su reorganización antes de elegir un formato de exportación como fusionar pdf
+  title: Combine PDF, múltiples escaneos en un solo archivo
+  description: Una vista previa de todos los documentos facilita su reorganización antes de elegir un formato de exportación como merge pdf
+  features:
+    rename:
+      title: Rebautizar
+      description: Dar un nombre a la sesión de escaneo, corresponderá al nombre del archivo exportado o en el caso de exportaciones en varios archivos se utilizará como prefijo 
+    organise:
+      title: Arreglar
+      description: Cambie la posición de un documento con arrastrar y soltar. También puede seleccionar un documento para obtener una vista previa o eliminarlo y agregar más
+    rotate:
+      title: Girar
+      description: Si el escaneo se realizó al revés o en horizontal cuando el formato es vertical, no se preocupe, es posible una modificación final
+    proportion:
+      title: Proporción
+      description: Desea exportar un escaneo con las dimensiones de un formato específico, es posible modificar las proporciones de un escaneo para que coincida
+      proportionList:
+        label: dimensiones
+        minimum: Original
+        maximum: Equilibrado
+    export:
+      title: Exportar
+      description: Exporte cada escaneo como una imagen o combínelos en formato PDF. El reconocimiento de texto (OCR) en todos los escaneos se ofrece con el formato de texto
+      exportList:
+        label: extensiones
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Escanear un documento a PDF
+    keywords: scanner pdf
+    description: Escanear un documento en PDF - Scan Drive - El documento escaneado se puede exportar en un solo archivo en formato PDF e individualmente en formato JPG
+  title: Escanear un documento a PDF
+  description: El documento escaneado se puede exportar en un solo archivo en formato PDF e individualmente en formato JPG
+  features:
+    pdf:
+      title: PDF
+      description: Todos los escaneos se exportan en un solo archivo PDF con las dimensiones y la orientación especificadas al configurar el documento
+    image:
+      title: Imagen
+      description: Exportación de escaneos a archivos de imagen en formato ".jpg" para cada escaneo
+    text:
+      title: Texto
+      description: El reconocimiento y la extracción de texto para todos los escaneos se exportan en un archivo en formato ".txt". Para esta función, un indicador de progreso del procesamiento propone ser notificado de la fase de inicialización y luego de extracción con la posibilidad de cancelar la solicitud
+
+download:
+  meta:
+    title: Descargar escáner
+    keywords: sescargar escáner
+    description: Descargar Scanner - Scan Drive - Disponible en Google Play y App Store
+  subtitle: Disponible en Google Play y App Store
+
+policy:
+  meta:
+    title: Política de privacidad y uso
+    keywords: política de confidencialidad
+    description: Política de Privacidad y Uso - Scan Drive - Escaneo Intuitivo y Responsable
+  title: Política de privacidad y uso
+  description: Escaneo intuitivo y responsable
+  personal:
+    title: Informacion personal
+    content: No se recopila ni transmite información personal a servicios de terceros
+  storage:
+    title: Almacenamiento
+    content: No se almacena información en su dispositivo sin su propia acción explícita relacionada con la copia de seguridad de archivos
+  authorization:
+    title: Permisos
+    content: Scan Drive le pide que permita el uso de la cámara solo cuando lo necesite. Scan Drive le solicita permiso para almacenar archivos en su dispositivo solo cuando lo solicita explícitamente
+  content:
+    title: Contenido
+    content: Se puede acceder a todo el contenido sin necesidad de una conexión a Internet
+  scanDrive:
+    - Scan Drive es un producto digital de la sociedad anónima SEEREN RCS 535 247 936 00011 Código APE 6209Z desde el 15 de octubre de 2011. Sede social 1 Impasse des Oeillets Agde 34300 - Francia, especializada en el sector empresarial de otras actividades informáticas. Cyril Ichti es el director de publicación y gerente editorial
+    - Seeren no se hace responsable de ninguna manera por el uso indebido del servicio. Al utilizar la aplicación, reconoce haber leído estas condiciones y haberlas aceptado. Estos pueden ser modificados en cualquier momento y sin previo aviso
+    - Se autoriza la reproducción parcial de los textos, imágenes, documentos del sitio en soporte papel, sujeto a distribución gratuita, sin modificación o alteración y sujeto a mostrar la dirección de origen así como el aviso de copyright - todos los derechos reservados Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Apoyo Scan Drive
+    keywords: apoyo scan drive
+    description: Apoyo Scan Drive - Scan Drive - Disponible en Google Play y App Store
+  title: Support
+  description: En caso de observaciones o problemas
+  mail:
+    title: Contáctenos por escrito
+    content: Puede contactarnos por correo electrónico con soporte activo
+  online:
+    title: Contribuir abiertamente
+    content: Puede declarar un comentario o un problema visible para todos para desencadenar una respuesta técnica con la disponibilidad de una actualización de la aplicación.
+
+notFound:
+  meta:
+    title: Página no encontrada
+    keywords:  extraviado
+    description: La pagina no existe

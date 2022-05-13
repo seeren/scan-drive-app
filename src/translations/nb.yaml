@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: For å laste ned
+    support: Brukerstøtte
+    features: Egenskaper
+    featuresItems:
+      - Format
+      - Å justere
+      - Å sette sammen
+      - Eksport
+  footer:
+    baseline: Intuitiv skanning til PDF tilgjengelig på Google Play og App Store
+
+scanDrive:
+  meta:
+    title: Bærbar PDF-skanner
+    keywords: bærbar skanner
+    description: PDF Portable Scanner - Scan Drive - Få profesjonelle skanninger intuitivt med smarttelefonen og den bærbare Scan Drive-skanneren
+  title: Bærbar PDF-skanner
+  description: Få profesjonelle skanninger intuitivt med smarttelefonen og den bærbare Scan Drive-skanneren
+  features:
+    format:
+      title: Format
+      description: Angi størrelsen på en skanning
+    adjust:
+      title: Å justere
+      description: Retouch Scan
+    assemble:
+      title: Å sette sammen
+      description: Slå sammen flere dokumenter
+    export:
+      title: Eksport
+      description: Skann til PDF
+  install: Installere
+
+format:
+  meta:
+    title: Skannestørrelse
+    keywords: skannestørrelse
+    description: Skanneformat - Skann stasjon - Flere dokumentformater for forskjellige størrelser i stående, liggende, farger eller svart-hvitt
+  title: Angi skannestørrelse
+  description: Flere dokumentformater for forskjellige størrelser i stående, liggende, farger eller svart-hvitt tillater formateringsskanning
+  features:
+    format:
+      title: Definer format
+      description: For å tvinge skanningen til å respektere nøyaktige proporsjoner, er det mulig å velge et PDF-eksportformat
+      formatList:
+        label: formats
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Kreditt- og visittkort
+        americanLetter: Amerikansk brev
+    orientation:
+      title: Velg orientering
+      description: Endre retningen for skanning til PDF
+      orientationList:
+        label: Veiledning
+        landscape: Landsbygda
+        portrait: Portrett
+    colorimetry:
+      title: Juster kolorimetrien 
+      description: Skann i gråtoner for å få en gjengivelse som er tro mot en fotokopi 
+      colorimetryList:
+        label: Kolorimetri 
+        color: Farge
+        grayScale: Nyanser av grått
+
+adjust:
+  meta:
+    title: Beskjær et skannet bilde
+    keywords: beskjære bildet
+    description: Beskjær et skannet bilde - Skann stasjon - Beskjær nøyaktig med håndtakene som gir en forstørret forhåndsvisning i motsatt vinkel av bevegelsen
+  title: Beskjær et skannet bilde
+  description: Beskjær nøyaktig med håndtakene som gir en forstørret forhåndsvisning i motsatt vinkel til bevegelsen
+  features:
+    crop:
+      title: Juster utskjæringen
+      description: Forhåndsvisningen i full skjerm gir en bedre forståelse av skanningen som er utført. Ved å velge et håndtak forsvinner handlingsknappene for å gi plass i hjørnet motsatt håndtaket for en zoom av det beskårede området
+      cropList:
+        label: lysstyrke
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Juster kontrasten
+      description: Ved å øke kontrasten kan teksten fremheves eller forminskes i forhold til bakgrunnen, det er ved beskjæring og før validering at du kan gjøre disse justeringene
+      contrastList:
+        label: kontraster
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Juster lysstyrken
+      description: Ved å øke lysstyrken kan bakgrunnen bli mindre nyansert og mer monokromatisk for å jevne ut dårlig belysning
+      brightnessList:
+        label: lysstyrke
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: Slå sammen PDF
+    keywords: slå sammen PDF
+    description: Slå sammen PDF - Skann stasjon - En forhåndsvisning av alle dokumenter gjør det enkelt å omorganisere dem før du velger et eksportformat som flett pdf
+  title: Slå sammen PDF, flere skanninger til én fil
+  description: En forhåndsvisning av alle dokumenter gjør det enkelt å omorganisere dem før du velger et eksportformat som flette pdf
+  features:
+    rename:
+      title: Gi nytt navn
+      description: Gi et navn til skanneøkten, den vil korrespondere med navnet på den eksporterte filen eller ved eksport i flere filer vil den bli brukt som et prefiks 
+    organise:
+      title: Arrangere
+      description: Endre posisjonen til et dokument med dra og slipp. Du kan også velge et dokument for å forhåndsvise eller slette det og legge til flere
+    rotate:
+      title: Snurre rundt
+      description: Hvis skanningen ble gjort opp-ned eller horisontalt når formatet er vertikalt, ingen bekymringer, en endelig modifikasjon er mulig
+    proportion:
+      title: Proporsjon
+      description: Du vil eksportere en skanning med dimensjonene til et spesifikt format, det er mulig å endre proporsjonene til en skanning for å matche den
+      proportionList:
+        label: proporsjoner
+        minimum: Opprinnelig
+        maximum: Justert
+    export:
+      title: Eksport
+      description: Eksporter hver skanning som et bilde eller slå dem sammen til PDF-format. Tekstgjenkjenning (OCR) i alle skanninger tilbys med tekstformatet
+      exportList:
+        label: utvidelser
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Skann et dokument til PDF
+    keywords: pdf-skanner
+    description: Skann et dokument i PDF - Skann stasjon - Det skannede dokumentet kan eksporteres i én enkelt fil i PDF-format og individuelt i JPG-format
+  title: Skann et dokument til PDF
+  description: Det skannede dokumentet kan eksporteres i én enkelt fil i PDF-format og individuelt i JPG-format
+  features:
+    pdf:
+      title: PDF
+      description: Alle skanninger eksporteres i én enkelt PDF-fil med dimensjonene og retningen som er spesifisert ved innstilling av dokumentet
+    image:
+      title: Bilde
+      description: Skanner eksport til bildefiler i ".jpg"-format for hver skanning
+    text:
+      title: Tekst
+      description: Gjenkjenning og uttrekking av tekst for alle skanninger eksporteres i en fil i ".txt"-format. For denne funksjonen foreslår en prosesseringsfremdriftsindikator å bli varslet om initialiserings- og deretter utvinningsfasen med mulighet for å kansellere forespørselen
+
+download:
+  meta:
+    title: Last ned skanner
+    keywords: last ned skanner
+    description: Last ned Scanner - Scan Drive - Tilgjengelig på Google Play og App Store
+  subtitle: Tilgjengelig på Google Play og App Store
+
+policy:
+  meta:
+    title: Retningslinjer for personvern og bruk
+    keywords: personvernerklæring
+    description: Retningslinjer for personvern og bruk - Skann Drive - Intuitiv og ansvarlig skanning
+  title: Retningslinjer for personvern og bruk
+  description: Intuitiv og ansvarlig skanning
+  personal:
+    title: Personlig informasjon
+    content: Ingen personlig informasjon samles inn eller overføres til tredjepartstjenester
+  storage:
+    title: Oppbevaring
+    content: Ingen informasjon lagres på enheten din uten din egen eksplisitte handling knyttet til sikkerhetskopiering av filer
+  authorization:
+    title: Tillatelser
+    content: Scan Drive ber deg om å tillate bruk av kamera bare når du trenger det. Scan Drive ber deg om tillatelse til å lagre filer på enheten din bare når du eksplisitt ber om det
+  content:
+    title: Innhold
+    content: Alt innhold er tilgjengelig uten internettforbindelse
+  scanDrive:
+    - Scan Drive er et digitalt produkt fra allmennaksjeselskapet SEEREN RCS 535 247 936 00011 Kode APE 6209Z siden 15. oktober 2011. Hovedkontor 1 Impasse des Oeillets Agde 34300 - Frankrike, som spesialiserer seg på forretningssektoren for andre dataaktiviteter. Cyril Ichti er publiseringsdirektør og redaksjonssjef
+    - Seeren kan ikke holdes ansvarlig på noen måte for feil bruk av tjenesten. Ved å bruke applikasjonen, bekrefter du å ha lest disse vilkårene og å ha akseptert dem. Disse kan endres når som helst og uten varsel.
+    - Delvis reproduksjon av tekster, bilder, dokumenter fra nettstedet på et papirmedium er autorisert, med forbehold om gratis distribusjon, uten modifikasjoner eller endringer og med forbehold om visning av kildeadressen samt opphavsrettserklæringen - alle rettigheter forbeholdt Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Brukerstøtte Scan Drive
+    keywords: brukerstøtte scan drive
+    description: Brukerstøtte Scan Drive - Scan Drive - Tilgjengelig på Google Play og App Store
+  title: Brukerstøtte
+  description: Ved merknader eller problemer
+  mail:
+    title: Kontakt oss skriftlig
+    content: Du kan kontakte oss på e-post med aktiv støtte
+  online:
+    title: Bidra åpent
+    content: Du kan erklære en merknad eller et problem synlig for alle for å utløse et teknisk svar med tilgjengeligheten av en oppdatering av applikasjonen
+
+notFound:
+  meta:
+    title: Side ikke funnet
+    keywords: ikke funnet
+    description: Siden eksisterer ikke

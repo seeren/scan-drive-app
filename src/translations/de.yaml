@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Herunterladen
+    support: Unterstützung
+    features: Merkmale
+    featuresItems:
+      - Format
+      - Anpassen
+      - Montieren
+      - Export
+  footer:
+    baseline: Intuitives Scannen in PDF, verfügbar bei Google Play und im App Store
+
+scanDrive:
+  meta:
+    title: Tragbarer PDF-Scanner
+    keywords: tragbarer Scanner
+    description: Tragbarer PDF-Scanner - Scan Drive - Holen Sie sich professionelle Scans intuitiv mit Ihrem Smartphone und dem tragbaren Scanner Scan Drive
+  title: Tragbarer PDF-Scanner
+  description: Holen Sie sich professionelle Scans intuitiv mit Ihrem Smartphone und dem tragbaren Scanner Scan Drive
+  features:
+    format:
+      title: Format
+      description: Legen Sie die Größe eines Scans fest
+    adjust:
+      title: Anpassen
+      description: Scan retuschieren
+    assemble:
+      title: Montieren
+      description: Mehrere Dokumente zusammenführen
+    export:
+      title: Export
+      description: Als PDF scannen
+  install: Installieren
+
+format:
+  meta:
+    title: Scangröße
+    keywords: scangröße
+    description: Scanformat - Scanlaufwerk - Mehrere Dokumentenformate für verschiedene Größen in Hoch-, Quer-, Farb- oder Schwarzweiß
+  title: Scangröße festlegen
+  description: Mehrere Dokumentenformate für unterschiedliche Größen in Hoch-, Quer-, Farb- oder Schwarzweißformatierung ermöglichen das Scannen
+  features:
+    format:
+      title: Format definieren
+      description: Um den Scan zu zwingen, genaue Proportionen einzuhalten, ist es möglich, ein PDF-Exportformat zu wählen
+      formatList:
+        label: größen
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Kredit- und Visitenkarte
+        americanLetter: Amerikanischer Brief
+    orientation:
+      title: Ausrichtung wählen
+      description: Ändern Sie die Ausrichtung des Scannens in PDF
+      orientationList:
+        label: Orientierungshilfe
+        landscape: Landschaft
+        portrait: Porträt
+    colorimetry:
+      title: Passen Sie die Farbmetrik an
+      description: Scannen Sie in Graustufen, um eine Wiedergabe zu erhalten, die der einer Fotokopie entspricht 
+      colorimetryList:
+        label: Farbmetrik 
+        color: Farbe
+        grayScale: Grautöne
+
+adjust:
+  meta:
+    title: Ein gescanntes Bild zuschneiden
+    keywords: Bild zuschneiden
+    description: Beschneiden Sie ein gescanntes Bild – Scannen Sie Laufwerk – Beschneiden Sie präzise mit den Griffen, die eine vergrößerte Vorschau im entgegengesetzten Winkel der Bewegung geben
+  title: Ein gescanntes Bild zuschneiden
+  description: Beschneiden Sie präzise mit den Anfassern, die eine vergrößerte Vorschau im entgegengesetzten Winkel zur Bewegung geben
+  features:
+    crop:
+      title: Ausschnitt anpassen
+      description: Die Vollbildvorschau bietet eine bessere Einschätzung des durchgeführten Scans. Durch Auswählen eines Anfassers verschwinden die Aktionsschaltflächen, um in der Ecke gegenüber dem Anfasser Platz für einen Zoom des zugeschnittenen Bereichs zu schaffen
+      cropList:
+        label: helligkeit
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Kontrast anpassen
+      description: Durch Erhöhen des Kontrasts kann der Text im Verhältnis zum Hintergrund betont oder abgeschwächt werden. Diese Anpassungen können Sie zum Zeitpunkt des Zuschneidens und vor der Validierung vornehmen
+      contrastList:
+        label: kontraste
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Helligkeit anpassen
+      description: Durch Erhöhen der Helligkeit kann der Hintergrund weniger nuanciert und monochromatischer dargestellt werden, um schlechte Beleuchtung auszugleichen
+      brightnessList:
+        label: helligkeit
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: PDF zusammenführen
+    keywords: PDF zusammenführen
+    description: PDF zusammenführen - Laufwerk scannen - Eine Vorschau aller Dokumente macht es einfach, sie neu zu organisieren, bevor Sie ein Exportformat wie PDF zusammenführen auswählen
+  title: PDF, mehrere Scans in einer Datei zusammenführen
+  description: Eine Vorschau aller Dokumente macht es einfach, sie neu zu organisieren, bevor Sie ein Exportformat wie PDF zusammenführen auswählen
+  features:
+    rename:
+      title: Umbenennen
+      description: Geben Sie der Scansitzung einen Namen, der dem Namen der exportierten Datei entspricht oder bei Exporten in mehrere Dateien als Präfix verwendet wird
+    organise:
+      title: Arrangieren
+      description: Ändern Sie die Position eines Dokuments per Drag & Drop. Sie können auch ein Dokument auswählen, um es in der Vorschau anzuzeigen oder zu löschen und weitere hinzuzufügen
+    rotate:
+      title: Rotieren
+      description: Wenn der Scan bei vertikalem Format verkehrt herum oder horizontal durchgeführt wurde, keine Sorge, eine letzte Änderung ist möglich
+    proportion:
+      title: Anteil
+      description: Sie möchten einen Scan mit den Abmessungen eines bestimmten Formats exportieren, es ist möglich, die Proportionen eines Scans entsprechend zu ändern
+      proportionList:
+        label: proportionen
+        minimum: Original
+        maximum: Angepasst
+    export:
+      title: Export
+      description: Exportieren Sie jeden Scan als Bild oder führen Sie sie im PDF-Format zusammen. Texterkennung (OCR) in allen Scans wird mit dem Textformat angeboten
+      exportList:
+        label: erweiterungen
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Scannen Sie ein Dokument in PDF
+    keywords: pdf-dcanner
+    description: Scannen Sie ein Dokument im PDF-Format - Laufwerk scannen - Das gescannte Dokument kann in einer einzigen Datei im PDF-Format und einzeln im JPG-Format exportiert werden
+  title: Scannen Sie ein Dokument in PDF
+  description: Das gescannte Dokument kann in einer einzigen Datei im PDF-Format und einzeln im JPG-Format exportiert werden
+  features:
+    pdf:
+      title: PDF
+      description: Alle Scans werden in einer einzigen PDF-Datei mit den Abmessungen und der Ausrichtung exportiert, die beim Einrichten des Dokuments angegeben wurden
+    image:
+      title: Bild
+      description: Scans werden für jeden Scan in Bilddateien im „.jpg“-Format exportiert
+    text:
+      title: Text
+      description: Texterkennung und -extraktion für alle Scans werden in eine Datei im „.txt“-Format exportiert. Für diese Funktion schlägt eine Fortschrittsanzeige der Verarbeitung vor, über die Initialisierungs- und dann die Extraktionsphase mit der Möglichkeit, die Anfrage zu stornieren, benachrichtigt zu werden
+
+download:
+  meta:
+    title: Scanner herunterladen
+    keywords: scanner herunterladen
+    description: Download Scanner – Laufwerk scannen – Verfügbar bei Google Play und im App Store
+  subtitle: Verfügbar über Google Play und App Store
+
+policy:
+  meta:
+    title: Datenschutz- und Nutzungsrichtlinie
+    keywords: datenschutz-bestimmungen
+    description: Datenschutz- und Nutzungsrichtlinie - Laufwerk scannen - Intuitives und verantwortungsbewusstes Scannen
+  title: Datenschutz- und Nutzungsrichtlinie
+  description: Intuitives und verantwortungsbewusstes Scannen
+  personal:
+    title: Persönliche Informationen
+    content: Es werden keine personenbezogenen Daten erfasst oder an Dienste von Drittanbietern übermittelt
+  storage:
+    title: Lager
+    content: Ohne Ihre ausdrückliche Aktion im Zusammenhang mit der Sicherung von Dateien werden keine Informationen auf Ihrem Gerät gespeichert
+  authorization:
+    title: Berechtigungen
+    content: Scan Drive fordert Sie auf, die Verwendung der Kamera nur dann zuzulassen, wenn Sie sie benötigen. Scan Drive bittet Sie nur dann um Erlaubnis, Dateien auf Ihrem Gerät zu speichern, wenn Sie ausdrücklich darum bitten
+  content:
+    title: Inhalt
+    content: Alle Inhalte sind ohne Internetverbindung zugänglich
+  scanDrive:
+    - Scan Drive ist ein digitales Produkt der Aktiengesellschaft SEEREN RCS 535 247 936 00011 Code APE 6209Z seit dem 15. Oktober 2011. Hauptsitz 1 Impasse des Oeillets Agde 34300 - Frankreich, spezialisiert auf den Geschäftsbereich sonstige Computeraktivitäten. Cyril Ichti ist der Publikationsleiter und Redaktionsleiter
+    - Seeren kann in keiner Weise für die missbräuchliche Nutzung des Dienstes haftbar gemacht werden. Durch die Nutzung der Anwendung bestätigen Sie, diese Bedingungen gelesen und akzeptiert zu haben. Diese können jederzeit und ohne Vorankündigung geändert werden
+    - Die teilweise Vervielfältigung der Texte, Bilder, Dokumente der Website auf einem Papiermedium ist gestattet, vorbehaltlich der kostenlosen Verteilung, ohne Modifikationen oder Änderungen und vorbehaltlich der Angabe der Quellenadresse sowie des Urheberrechtsvermerks - alle Rechte vorbehalten Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Unterstützung Scan Drive
+    keywords: unterstützung scan drive
+    description: Unterstützung Scan Drive - Scan Drive - Verfügbar bei Google Play und im App Store
+  title: Support
+  description: Bei Anmerkungen oder Problemen
+  mail:
+    title: Kontaktieren Sie uns schriftlich
+    content: Sie können uns per E-Mail mit aktiver Unterstützung kontaktieren
+  online:
+    title: Tragen Sie offen bei
+    content: Sie können eine Bemerkung oder ein Problem für alle sichtbar machen, um eine technische Reaktion mit der Verfügbarkeit eines Updates der Anwendung auszulösen
+
+notFound:
+  meta:
+    title: Seite nicht gefunden
+    keywords: nicht gefunden
+    description: Die Seite existiert nicht

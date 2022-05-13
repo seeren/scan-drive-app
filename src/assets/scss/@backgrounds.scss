@@ -1,0 +1,24 @@
+@mixin backgrounds {
+    background-size: auto 60%;
+    background-repeat: repeat;
+    background-position: 75%;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 1200px) {
+        background-position: 85%;
+        background-size: auto 40%;
+    }
+    @each $var in ("da", "de", "en", "es", "fi", "fr", "it", "ja", "nb", "nl", "pt", "sv", "tr") {
+        &.#{$var}.adjust {
+            background-image: url(assets/images/screen-device-#{$var}-ajuster.png);
+        }
+        &.#{$var}.assemble {
+            background-image: url(assets/images/screen-device-#{$var}-assembler.png);
+        }
+        &.#{$var}.format {
+            background-image: url(assets/images/screen-device-#{$var}-formater.png);
+        }
+        &.#{$var}.export {
+            background-image: url(assets/images/screen-device-#{$var}-exporter.png);
+        }
+    }
+}

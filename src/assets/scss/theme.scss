@@ -1,0 +1,36 @@
+$info: #0097a7;
+$warning: #f57f17;
+$danger: #c2185b;
+$dark: #363636;
+
+body {
+    background-image: url(assets/images/badge-android.png);
+    background-image: url(assets/images/badge-ios.png);
+    background-image: url(assets/images/favicon.png);
+    background-image: url(assets/images/favicon.png);
+    background-image: url(assets/images/icon.png);
+    background-image: url(assets/images/logo.png);
+    background-image: unset;
+
+    --info-color: #{$info};
+    --warning-color: #{$warning};
+    --danger-color: #{$danger};
+    --dark-color: #{$dark};
+}
+
+.is-medium-padding {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.title-icon {
+    overflow: hidden;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    left: -9rem;
+}
+
+.material-icons {
+    width: 1.2em;
+}

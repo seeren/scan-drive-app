@@ -1,0 +1,19 @@
+app-assemble {
+    @extend .has-background-warning;
+    * {
+        @extend .has-text-white;
+    }
+    .menu-label {
+        color: #ffc28c;
+    }
+    .menu-list {
+        li {
+            border-bottom: solid 1px #ffc28c;
+        }
+        a:hover {
+            @extend .has-background-warning;
+            cursor: initial;
+            color: white !important;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+<nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" onclick="navigate('scanDrive')" href="/${ translate.getLanguage() }/">
+            <img src="assets/images/logo.png" alt="Scanner portable">
+        </a>
+        <a role="button" class="navbar-burger" onclick="toogleMenu(this)" aria-label="menu" data-target="navbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbar" class="navbar-menu">
+        <div class="navbar-end">
+            <a class="navbar-item" onclick="navigate('download')" href="/${ translate.getLanguage() }/download">
+                ${ this.translate.get('app').navbar.download }
+            </a>
+
+            <a class="navbar-item" onclick="navigate('support')" href="/${ translate.getLanguage() }/support">
+                ${ this.translate.get('app').navbar.support }
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    ${ this.translate.get('app').navbar.features }
+                </a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" onclick="navigate('format')" href="/${ translate.getLanguage() }/format">
+                        ${ this.translate.get('app').navbar.featuresItems[0] }
+                    </a>
+                    <a class="navbar-item" onclick="navigate('adjust')" href="/${ translate.getLanguage() }/adjust">
+                        ${ this.translate.get('app').navbar.featuresItems[1] }
+                    </a>
+                    <a class="navbar-item" onclick="navigate('assemble')" href="/${ translate.getLanguage() }/assemble">
+                        ${ this.translate.get('app').navbar.featuresItems[2] }
+                    </a>
+                    <a class="navbar-item" onclick="navigate('export')" href="/${ translate.getLanguage() }/export">
+                        ${ this.translate.get('app').navbar.featuresItems[3] }
+                    </a>
+                </div>
+            </div>
+            <div class="control has-icons-left">
+                <div class="select is-rounded">
+                    <select onchange="selectLanguage(this.value)">
+                        ${ translate.getLanguages().map(language => `
+                        <option ${ language===translate.getLanguage() && 'selected' } itemprop="countrySupported"
+                            value="${ window.location.href.replace('/' + translate.getLanguage() + '/', '/' + language + '/') }">${
+                            language }`).join('') }
+                    </select>
+                </div>
+                <div class="icon is-small is-left">
+                    <span class="material-icons is-small is-left">language</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

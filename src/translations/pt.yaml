@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Baixar
+    support: Suporte
+    features: Recursos
+    featuresItems:
+      - Formato
+      - Ajustar
+      - Para montar
+      - Exportar
+  footer:
+    baseline: Digitalização intuitiva para PDF disponível no Google Play e App Store
+
+scanDrive:
+  meta:
+    title: Scanner de PDF portátil
+    keywords: scanner portátil
+    description: PDF Portable Scanner - Scan Drive - Obtenha digitalizações profissionais intuitivamente com o seu smartphone e o scanner portátil Scan Drive
+  title: Scanner de PDF portátil
+  description: Obtenha digitalizações profissionais intuitivamente com seu smartphone e o scanner portátil Scan Drive
+  features:
+    format:
+      title: Formato
+      description: Definir o tamanho de uma digitalização
+    adjust:
+      title: Ajustar
+      description: Digitalização de retoque
+    assemble:
+      title: Para montar
+      description: Mesclar vários documentos
+    export:
+      title: Exportar
+      description: Digitalizar para PDF
+  install: Instalar
+
+format:
+  meta:
+    title: Tamanho da digitalização
+    keywords: tamanho da digitalização
+    description: Formato de digitalização - Unidade de digitalização - Vários formatos de documentos para diferentes tamanhos em retrato, paisagem, colorido ou preto e branco
+  title: Definir o tamanho da digitalização
+  description: Vários formatos de documentos para diferentes tamanhos em retrato, paisagem, colorido ou preto e branco permitem a digitalização de formatação
+  features:
+    format:
+      title: Definir formato
+      description: Para forçar a digitalização a respeitar proporções precisas, é possível escolher um formato de exportação PDF
+      formatList:
+        label: tamanhos
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Cartão de crédito e de visita
+        americanLetter: Carta americana
+    orientation:
+      title: Escolha a orientação
+      description: Alterar a orientação de digitalização para PDF
+      orientationList:
+        label: Orientação
+        landscape: Campo
+        portrait: Retrato
+    colorimetry:
+      title: Ajuste a colorimetria
+      description: Digitalize em escala de cinza para ter uma renderização fiel à de uma fotocópia 
+      colorimetryList:
+        label: Colorimetria 
+        color: Cor
+        grayScale: Tons de cinza
+
+adjust:
+  meta:
+    title: Cortar uma imagem digitalizada
+    keywords: cortar a foto
+    description: Cortar uma imagem digitalizada - Scan Drive - Corte precisamente com as alças que fornecem uma visualização ampliada no ângulo oposto do movimento
+  title: Cortar uma imagem digitalizada
+  description: Corte com precisão com as alças que proporcionam uma visualização ampliada no ângulo oposto ao movimento
+  features:
+    crop:
+      title: Ajustar Recorte
+      description: A visualização em tela cheia oferece uma melhor apreciação da verificação realizada. Ao selecionar uma alça, os botões de ação desaparecem para dar espaço no canto oposto à alça para um zoom da área recortada
+      cropList:
+        label: luminosidade
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Ajustar contraste
+      description: Ao aumentar o contraste o texto pode ser acentuado ou diminuído em relação ao fundo, é no momento do recorte e antes da validação que você pode fazer esses ajustes
+      contrastList:
+        label: contrastes
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Ajustar o brilho
+      description: Ao aumentar o brilho, o fundo pode ser menos matizado e mais monocromático para suavizar a iluminação ruim
+      brightnessList:
+        label: luminosidade
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: Mesclar PDF
+    keywords: mesclar PDF
+    description: Mesclar PDF - Digitalizar unidade - Uma visualização de todos os documentos facilita a reorganização deles antes de escolher um formato de exportação como mesclar pdf
+  title: Mesclar PDF, várias digitalizações em um arquivo
+  description: Uma visualização de todos os documentos facilita a reorganização deles antes de escolher um formato de exportação como mesclar pdf
+  features:
+    rename:
+      title: Renomear
+      description: Dê um nome à sessão de digitalização, corresponderá ao nome do arquivo exportado ou no caso de exportações em vários arquivos será usado como prefixo
+    organise:
+      title: Arranjo
+      description: Altere a posição de um documento com um arrastar e soltar. Você também pode selecionar um documento para visualizá-lo ou excluí-lo e adicionar mais
+    rotate:
+      title: Rodar
+      description: Se a digitalização foi feita de cabeça para baixo ou horizontalmente quando o formato é vertical, não se preocupe, uma modificação final é possível
+    proportion:
+      title: Proporção
+      description: Você deseja exportar uma digitalização com as dimensões de um formato específico, é possível modificar as proporções de uma digitalização para corresponder
+      proportionList:
+        label: proporções
+        minimum: Original
+        maximum: Ajustado
+    export:
+      title: Exportar
+      description: Exporte cada digitalização como uma imagem ou mescle-as no formato PDF. O reconhecimento de texto (OCR) em todas as digitalizações é oferecido com o formato de texto
+      exportList:
+        label: extensões
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Digitalizar um documento para PDF
+    keywords: scanner de pdf
+    description: Digitalize um documento em PDF - Scan Drive - O documento digitalizado pode ser exportado em um único arquivo no formato PDF e individualmente no formato JPG
+  title: Digitalizar um documento para PDF
+  description: O documento digitalizado pode ser exportado em um único arquivo no formato PDF e individualmente no formato JPG
+  features:
+    pdf:
+      title: PDF
+      description: Todas as digitalizações são exportadas em um único arquivo PDF com as dimensões e orientação especificadas ao configurar o documento
+    image:
+      title: Foto
+      description: As digitalizações exportam para arquivos de imagem no formato ".jpg" para cada digitalização
+    text:
+      title: Texto
+      description: O reconhecimento e extração de texto para todas as digitalizações são exportados em um arquivo no formato ".txt". Para este recurso, um indicador de andamento do processamento propõe ser notificado da fase de inicialização e posterior extração com possibilidade de cancelamento da solicitação
+
+download:
+  meta:
+    title: Baixar scanner
+    keywords: baixar scanner
+    description: Baixar Scanner - Scan Drive - Disponível no Google Play e App Store
+  subtitle: Disponível no Google Play e App Store
+
+policy:
+  meta:
+    title: Política de Privacidade e Uso
+    keywords: política de privacidade
+    description: Política de Privacidade e Uso - Scan Drive - Verificação intuitiva e responsável
+  title: Política de Privacidade e Uso
+  description: Digitalização intuitiva e responsável
+  personal:
+    title: Informações pessoais
+    content: Nenhuma informação pessoal é coletada ou transmitida a serviços de terceiros
+  storage:
+    title: Armazenar
+    content: Nenhuma informação é armazenada em seu dispositivo sem sua própria ação explícita relacionada ao backup de arquivos
+  authorization:
+    title: Permissões
+    content: O Scan Drive solicita que você permita o uso da câmera somente quando precisar. O Scan Drive solicita permissão para armazenar arquivos em seu dispositivo somente quando você solicita explicitamente
+  content:
+    title: Contente
+    content: Todo o conteúdo é acessível sem necessidade de conexão com a internet
+  scanDrive:
+    - Scan Drive é um produto digital da sociedade anónima SEEREN RCS 535 247 936 00011 Código APE 6209Z desde 15 de Outubro de 2011. Sede 1 Impasse des Oeillets Agde 34300 - França, especializada no sector empresarial de outras actividades informáticas. Cyril Ichti é o diretor de publicação e gerente editorial
+    - A Seeren não pode ser responsabilizada de forma alguma pelo uso indevido do serviço. Ao usar o aplicativo, você reconhece ter lido estas condições e as ter aceitado. Estes podem ser modificados a qualquer momento e sem aviso prévio.
+    - É autorizada a reprodução parcial dos textos, imagens, documentos do site em suporte de papel, sujeito a distribuição gratuita, sem modificação ou alteração e mediante apresentação do endereço de origem bem como do aviso de copyright - todos os direitos reservados Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Stöd Scan Drive
+    keywords: stöd scan drive
+    description: Stöd Scan Drive - Scan Drive - Finns på Google Play och App Store
+  title: Stöd
+  description: Vid anmärkningar eller problem
+  mail:
+    title: Kontakta oss skriftligen
+    content: Du kan kontakta oss via e-post med aktiv support
+  online:
+    title: Bidra öppet
+    content: Du kan förklara en anmärkning eller ett problem synligt för alla för att utlösa ett tekniskt svar med tillgången till en uppdatering av applikationen
+
+notFound:
+  meta:
+    title: Página não encontrada
+    keywords: não encontrado
+    description: A página não existe

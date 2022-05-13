@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: Download
+    support: Support
+    features: Features
+    featuresItems:
+      - Format
+      - Adjust
+      - Assemble
+      - Export
+  footer:
+    baseline: Intuitive scanning to PDF available on Google Play and App Store
+
+scanDrive:
+  meta:
+    title: Portable PDF scanner
+    keywords: portable scanner
+    description: PDF Portable Scanner - Scan Drive - Get professional scans intuitively with your smartphone and the Scan Drive portable scanner
+  title: Portable PDF scanner
+  description: Get professional scans intuitively with your smartphone and the Scan Drive portable scanner
+  features:
+    format:
+      title: Format
+      description: Set the size of a scan
+    adjust:
+      title: To adjust
+      description: Retouch Scan
+    assemble:
+      title: To assemble
+      description: Merge multiple documents
+    export:
+      title: Export
+      description: Scan to PDF
+  install: Install
+
+format:
+  meta:
+    title: Scan size
+    keywords: scan size
+    description: Scan format - Scan Drive - Multiple document formats for different sizes in portrait, landscape, color or black and white
+  title: Set scan size
+  description: Multiple document formats for different sizes in portrait, landscape, color or black and white allow for scanning formatting
+  features:
+    format:
+      title: Define format
+      description: To force the scan to respect precise proportions, it is possible to choose a PDF export format
+      formatList:
+        label: sizes
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Credit and business card
+        americanLetter: American letter
+    orientation:
+      title: Choose orientation
+      description: Change the orientation of scanning to PDF
+      orientationList:
+        label: Guidance
+        landscape: Countryside
+        portrait: Portrait
+    colorimetry:
+      title: Adjust the colorimetry 
+      description: Scan in grayscale to have a rendering faithful to that of a photocopy
+      colorimetryList:
+        label: Colorimetry 
+        color: Color
+        grayScale: Shades of grey
+
+adjust:
+  meta:
+    title: Crop a scanned image
+    keywords: crop picture
+    description: Crop a scanned image - Scan Drive - Crop precisely with the handles that give a magnified preview in the opposite angle of the move
+  title: Crop a scanned image
+  description: Crop precisely with the handles that give a magnified preview in the opposite angle to the movement
+  features:
+    crop:
+      title: Adjust Cutout
+      description: The full-screen preview gives a better appreciation of the scan performed. By selecting a handle, the action buttons disappear to make room in the corner opposite the handle for a zoom of the cropped area
+      cropList:
+        label: luminosity
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: Adjust contrast
+      description: By increasing the contrast the text can be accentuated or diminished in relation to the background, it is at the time of cropping and before validation that you can make these adjustments
+      contrastList:
+        label: contrasts
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: Adjust brightness
+      description: By increasing the brightness the background can be less nuanced and more monochromatic in order to smooth out bad lighting
+      brightnessList:
+        label: luminosity
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: Merge PDF
+    keywords: merge PDF
+    description: Merge PDF - Scan Drive - A preview of all documents makes it easy to reorganize them before choosing an export format like merge pdf
+  title: Merge PDF, multiple scans into one file
+  description: A preview of all documents makes it easy to reorganize them before choosing an export format like merge pdf
+  features:
+    rename:
+      title: Rename
+      description: Give a name to the scanning session, it will correspond to the name of the exported file or in the case of exports in several files it will be used as a prefix
+    organise:
+      title: Arrange
+      description: Change the position of a document with a drag and drop. You can also select a document to preview or delete it and add more
+    rotate:
+      title: Spin
+      description: If the scan was done upside down or horizontally when the format is vertical, no worries, a final modification is possible
+    proportion:
+      title: Proportion
+      description: You want to export a scan with the dimensions of a specific format, it is possible to modify the proportions of a scan to match it
+      proportionList:
+        label: proportions
+        minimum: Original
+        maximum: Adjusted
+    export:
+      title: Export
+      description: Export each scan as an image or merge them into PDF format. Text recognition (OCR) in all scans is offered with the text format
+      exportList:
+        label: extensions
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Scan a document to PDF
+    keywords: scan pdf
+    description: Scan a document in PDF - Scan Drive - The scanned document can be exported in a single file in PDF format and individually in JPG format
+  title: Scan a document to PDF
+  description: The scanned document can be exported in a single file in PDF format and individually in JPG format
+  features:
+    pdf:
+      title: PDF
+      description: All scans are exported in a single PDF file with the dimensions and orientation specified when setting the document
+    image:
+      title: Picture
+      description: Scans export to image files in ".jpg" format for each scan
+    text:
+      title: Text
+      description: Recognition and extraction of text for all scans are exported in a file in ".txt" format. For this feature, a processing progress indicator proposes to be notified of the initialization and then extraction phase with the possibility of canceling the request
+
+download:
+  meta:
+    title: Download Scanner
+    keywords: download scanner
+    description: Download Scanner - Scan Drive - Available on Google Play and App Store
+  subtitle: Available on Google Play and App Store
+
+policy:
+  meta:
+    title: Privacy and Usage Policy
+    keywords: privacy policy
+    description: Privacy and Use Policy - Scan Drive - Intuitive and Responsible Scanning
+  title: Privacy and Usage Policy
+  description: Intuitive and responsible scanning
+  personal:
+    title: Personal information
+    content: No personal information is collected or transmitted to third party services
+  storage:
+    title: Storage
+    content: No information is stored on your device without your own explicit action related to backing up files
+  authorization:
+    title: Permissions
+    content: Scan Drive asks you to allow camera use only when you need it. Scan Drive asks you for permission to store files on your device only when you explicitly ask for it
+  content:
+    title: Content
+    content: All content is accessible without an internet connection required
+  scanDrive:
+    - Scan Drive is a digital product of the public limited company SEEREN RCS 535 247 936 00011 Code APE 6209Z since October 15, 2011. Head office 1 Impasse des Oeillets Agde 34300 - France, specializing in the business sector of other computer activities. Cyril Ichti is the publication director and editorial manager
+    - Seeren cannot be held liable in any way for improper use of the service. By using the application, you acknowledge having read these conditions and having accepted them. These may be modified at any time and without notice
+    - The partial reproduction of the texts, images, documents of the site on a paper medium are authorized, subject to free distribution, without modification or alterations and subject to showing the source address as well as the copyright notice - all rights reserved Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Support Scan Drive
+    keywords: support scan drive
+    description: Support Scan Drive - Scan Drive - Available on Google Play and App Store
+  title: Support
+  description: In case of remarks or problems
+  mail:
+    title: Contact us in writing
+    content: You can contact us by email with active support
+  online:
+    title: Contribute openly
+    content: You can declare a remark or a problem visible to all in order to trigger a technical response with the availability of an update of the application
+
+notFound:
+  meta:
+    title: Page Not Found
+    keywords: not found
+    description: The page does not exist

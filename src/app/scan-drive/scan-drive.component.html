@@ -1,0 +1,119 @@
+<video preload autoplay loop muted playsinline itemprop="video">
+    <source src="assets/video/scan-drive.mp4" type="video/mp4">
+</video>
+
+<section class="hero is-relative is-dark">
+    <div class="hero-body has-text-centered">
+        <h1 class="title is-size-2 has-text-weight-light is-flex is-justify-content-center is-align-items-center">
+            <img src="assets/images/icon.png" class="logo">
+            ${ translate.get('scanDrive').title }
+        </h1>
+        <p class="subtitle is-size-4" itemprop="about">
+            ${ translate.get('scanDrive').description }
+        </p>
+    </div>
+</section>
+
+<section class="hero is-large ${ translate.getLanguage()} format">
+    <div class="hero-body is-flex columns is-relative">
+        <div
+            class="column is-offset-2-desktop is-1 is-1-mobile hero-step is-first-step is-half-step is-flex is-justify-content-center is-align-items-center">
+            <span class="tag is-dark has-text-white is-large">1</span>
+        </div>
+        <div class="column is-2-desktop hero-icon has-text-right is-hidden-touch">
+            <span class="material-icons">photo_size_select_large</span>
+        </div>
+        <div class="column is-5-desktop hero-link has-text-centered">
+            <h2 class="title bordered" itemprop="featureList">
+                ${ translate.get('scanDrive').features.format.description }
+            </h2>
+            <p class="subtitle mt-2">
+                <button class="button is-large is-rounded is-dark" onclick="navigate('format')">
+                    <span class="material-icons">arrow_forward_ios</span>
+                    <a class="has-text-white" href="/${ translate.getLanguage() }/format">${
+                        translate.get('scanDrive').features.format.title }</a>
+                </button>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="hero is-large ${ translate.getLanguage()} adjust">
+    <div class="hero-body is-flex columns is-relative">
+        <div
+            class="column is-offset-2-desktop is-1 is-1-mobile hero-step is-flex is-justify-content-center is-align-items-center">
+            <span class="tag is-info has-text-white is-large">2</span>
+        </div>
+        <div class="column is-2-desktop hero-icon has-text-right is-hidden-touch">
+            <span class="material-icons">crop</span>
+        </div>
+        <div class="column is-5-desktop hero-link has-text-centered">
+            <h2 class="title bordered" itemprop="featureList">
+                ${ translate.get('scanDrive').features.adjust.description }
+            </h2>
+            <p class="subtitle mt-2">
+                <button class="button is-large is-rounded is-info" onclick="navigate('adjust')">
+                    <span class="material-icons">arrow_forward_ios</span>
+                    <a class="has-text-white" href="/${ translate.getLanguage() }/adjust">${
+                        translate.get('scanDrive').features.adjust.title }</a>
+                </button>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="hero is-large ${ translate.getLanguage()} assemble">
+    <div class="hero-body is-flex columns is-relative">
+        <div
+            class="column is-offset-2-desktop is-1 is-1-mobile hero-step is-flex is-justify-content-center is-align-items-center">
+            <span class="tag is-warning has-text-white is-large">3</span>
+        </div>
+        <div class="column is-2-desktop hero-icon has-text-right is-hidden-touch ">
+            <span class="material-icons">call_merge</span>
+        </div>
+        <div class="column is-5-desktop hero-link has-text-centered">
+            <h2 class="title bordered" itemprop="featureList">
+                ${ translate.get('scanDrive').features.assemble.description }
+            </h2>
+            <p class="subtitle mt-2">
+                <button class="button is-large is-rounded is-warning" onclick="navigate('assemble')">
+                    <span class="material-icons">arrow_forward_ios</span>
+                    <a class="has-text-white" href="/${ translate.getLanguage() }/assemble">${
+                        translate.get('scanDrive').features.assemble.title }</a>
+                </button>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="hero is-large ${ translate.getLanguage()} export">
+    <div class="hero-body is-flex columns is-relative">
+        <div
+            class="column is-offset-2-desktop is-1 is-1-mobile hero-step is-half-step is-last-step is-flex is-justify-content-center is-align-items-center">
+            <span class="tag is-danger has-text-white is-large">4</span>
+        </div>
+        <div class="column is-2-desktop hero-icon has-text-right is-hidden-touch">
+            <span class="material-icons">file_download</span>
+        </div>
+        <div class="column is-5-desktop hero-link has-text-centered">
+            <h2 class="title bordered" itemprop="featureList">
+                ${ translate.get('scanDrive').features.export.description }
+            </h2>
+            <p class="subtitle mt-2">
+                <button class="button is-large is-rounded is-danger" onclick="navigate('export')">
+                    <span class="material-icons">arrow_forward_ios</span>
+                    <a class="has-text-white" href="/${ translate.getLanguage() }/export">${
+                        translate.get('scanDrive').features.export.title }</a>
+                </button>
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-medium is-relative is-dark">
+    <div class="hero-body has-text-centered">
+        <h2 class="download title is-size-2 has-text-weight-light button is-dark is-large is-rounded">
+            <a onclick="navigate('download')" href="/${ translate.getLanguage() }/download">
+                ${ translate.get('scanDrive').install }
+                <span class="material-icons">touch_app</span>
+            </a>
+        </h2>
+    </div>
+</section>

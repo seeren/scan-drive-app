@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: ダウンロードする
+    support: サポート
+    features: 特徴
+    featuresItems:
+      - フォーマット
+      - 調整
+      - 組み立てるため
+      - 書き出す
+  footer:
+    baseline: Google PlayとApp Storeで入手可能なPDFへの直感的なスキャン
+
+scanDrive:
+  meta:
+    title: ポータブルPDFスキャナー
+    keywords: ポータブルスキャナー
+    description: PDFポータブルスキャナー-スキャンドライブ-スマートフォンとスキャンドライブポータブルスキャナーで直感的にプロのスキャンを取得
+  title: ポータブルPDFスキャナー
+  description: スマートフォンとスキャンドライブポータブルスキャナーで直感的にプロのスキャンを取得
+  features:
+    format:
+      title: フォーマット
+      description: スキャンのサイズを設定します
+    adjust:
+      title: 調整
+      description: レタッチスキャン
+    assemble:
+      title: 組み立てるため
+      description: 複数のドキュメントをマージする
+    export:
+      title: 書き出す
+      description: PDFにスキャン
+  install: インストール
+
+format:
+  meta:
+    title: スキャンサイズ
+    keywords: スキャンサイズ
+    description: スキャン形式-スキャンドライブ-縦向き、横向き、カラー、白黒のさまざまなサイズの複数のドキュメント形式
+  title: スキャンサイズを設定する
+  description: ポートレート、ランドスケープ、カラー、または白黒のさまざまなサイズの複数のドキュメントフォーマットにより、フォーマットスキャンが可能になります
+  features:
+    format:
+      title: フォーマットを定義する
+      description: スキャンに正確な比率を尊重させるために、PDFエクスポート形式を選択することができます
+      formatList:
+        label: サイズ
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: クレジットと名刺
+        americanLetter: アメリカの手紙
+    orientation:
+      title: 向きを選択してください
+      description: スキャンの方向をPDFに変更します
+      orientationList:
+        label: ガイダンス
+        landscape: 田舎
+        portrait: ポートレート
+    colorimetry:
+      title: 測色を調整する
+      description: グレースケールでスキャンして、コピーのレンダリングに忠実なレンダリングを行います
+      colorimetryList:
+        label: 測色 
+        color: 色
+        grayScale: グレーの色合い
+
+adjust:
+  meta:
+    title: スキャンした画像を切り抜く
+    keywords: 作物の写真
+    description: スキャンした画像をトリミングする-スキャンドライブ-移動の反対の角度で拡大プレビューを提供するハンドルを使用して正確にトリミングします
+  title: スキャンした画像を切り抜く
+  description: 動きと反対の角度で拡大プレビューを提供するハンドルで正確にトリミングします
+  features:
+    crop:
+      title: カットアウトを調整する
+      description: フルスクリーンプレビューにより、実行されたスキャンをよりよく理解できます。ハンドルを選択すると、アクションボタンが消え、ハンドルの反対側の隅にトリミング領域のズーム用のスペースができます。
+      cropList:
+        label: 光度
+        minimum: -100
+        maximum: '+100'
+    contrast:
+      title: コントラストを調整する
+      description: コントラストを上げることにより、テキストを背景に対して強調または縮小することができます。これらの調整を行うことができるのは、トリミング時および検証前です。
+      contrastList:
+        label: コントラスト
+        minimum: -100
+        maximum: '+100'
+    brightness:
+      title: 明るさを調整する
+      description: 明るさを上げることにより、背景のニュアンスを減らし、単色性を高めて、悪い照明を滑らかにすることができます。
+      brightnessList:
+        label: 光度
+        minimum: -100
+        maximum: '+100'
+
+assemble:
+  meta:
+    title: PDFをマージ
+    keywords: PDFをマージ
+    description: マージPDF-スキャンドライブ-すべてのドキュメントのプレビューにより、マージpdfのようなエクスポート形式を選択する前にドキュメントを簡単に再編成できます
+  title: PDF、複数のスキャンを1つのファイルにマージ
+  description: すべてのドキュメントのプレビューにより、mergepdfなどのエクスポート形式を選択する前にドキュメントを簡単に再編成できます。
+  features:
+    rename:
+      title: 名前を変更
+      description: スキャンセッションに名前を付けます。これは、エクスポートされたファイルの名前に対応します。複数のファイルでエクスポートする場合は、プレフィックスとして使用されます。
+    organise:
+      title: 整える
+      description: ドラッグアンドドロップでドキュメントの位置を変更します。ドキュメントを選択してプレビューまたは削除してさらに追加することもできます
+    rotate:
+      title: スピン
+      description: フォーマットが垂直のときに逆さままたは水平にスキャンが行われた場合、心配する必要はありません。最終的な変更が可能です。
+    proportion:
+      title: 割合
+      description: 特定の形式の寸法でスキャンをエクスポートしたい場合は、スキャンの比率を変更してそれに一致させることができます
+      proportionList:
+        label: プロポーション
+        minimum: オリジナル
+        maximum: 調整済み
+    export:
+      title: 書き出す
+      description: 各スキャンを画像としてエクスポートするか、PDF形式にマージします。すべてのスキャンでのテキスト認識（OCR）は、テキスト形式で提供されます
+      exportList:
+        label: 拡張機能
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: ドキュメントをスキャンしてPDFに
+    keywords: pdfスキャナー
+    description: PDF形式のドキュメントをスキャン-スキャンドライブ-スキャンしたドキュメントは、PDF形式の単一ファイルおよびJPG形式で個別にエクスポートできます
+  title: ドキュメントをスキャンしてPDFに
+  description: スキャンしたドキュメントは、PDF形式で単一のファイルにエクスポートでき、JPG形式で個別にエクスポートできます。
+  features:
+    pdf:
+      title: PDF
+      description: すべてのスキャンは、ドキュメントの設定時に指定された寸法と方向で単一のPDFファイルにエクスポートされます
+    image:
+      title: Image
+      description: スキャンは、スキャンごとに「.jpg」形式の画像ファイルにエクスポートされます
+    text:
+      title: Text
+      description: すべてのスキャンのテキストの認識と抽出は、「。txt」形式のファイルでエクスポートされます。この機能の場合、処理の進行状況インジケーターは、要求をキャンセルする可能性のある初期化フェーズと抽出フェーズの通知を提案します。
+
+download:
+  meta:
+    title: スキャナーをダウンロード
+    keywords: スキャナーをダウンロード
+    description: スキャナーのダウンロード-スキャンドライブ-GooglePlayとAppStoreで入手可能
+  subtitle: Google PlayとApp Storeで入手可能
+
+policy:
+  meta:
+    title: プライバシーと使用ポリシー
+    keywords: プライバシーポリシー
+    description: プライバシーと使用ポリシー-スキャンドライブ-直感的で責任あるスキャン
+  title: Pプライバシーと使用ポリシー
+  description: 直感的で責任あるスキャン
+  personal:
+    title: 個人情報
+    content: 個人情報が収集されたり、サードパーティのサービスに送信されたりすることはありません。
+  storage:
+    title: ストレージ
+    content: ファイルのバックアップに関連する独自の明示的なアクションがなければ、情報はデバイスに保存されません
+  authorization:
+    title: 権限
+    content: Scan Driveは、必要な場合にのみカメラの使用を許可するように求めます。 Scan Driveは、明示的に要求した場合にのみ、デバイスにファイルを保存する許可を求めます
+  content:
+    title: Contenu
+    content: インターネットに接続しなくてもすべてのコンテンツにアクセスできます
+  scanDrive:
+    - Scan Driveは、2011年10月15日以降の公開有限会社SEEREN RCS 535 24793600011コードAPE6209Zのデジタル製品です。本社1Impassedes Oeillets Agde 34300-フランス、その他のコンピューター活動のビジネスセクターを専門としています。 Cyril Ichtiは、出版ディレクター兼編集マネージャーです。
+    - Seerenは、サービスの不適切な使用について一切責任を負わないものとします。アプリケーションを使用することにより、これらの条件を読み、受け入れたことを認めるものとします。これらはいつでも予告なしに変更される場合があります。
+    - 紙媒体でのサイトのテキスト、画像、ドキュメントの部分的な複製は許可されており、変更や変更なしに無料で配布され、ソースアドレスと著作権表示が表示されることがあります-無断転載禁止スキャンドライブ-SEEREN SAS
+
+support:
+  meta:
+    title: サポート Scan Drive
+    keywords: サポート scan drive
+    description: サポート Scan Drive - Scan Drive - GooglePlayとAppStoreで入手可能
+  title: サポート
+  description: 発言や問題の場合
+  mail:
+    title: 書面でお問い合わせください
+    content: あなたは積極的なサポートで電子メールで私達に連絡することができます
+  online:
+    title: 公然と貢献する
+    content: アプリケーションのアップデートが利用可能になったときに技術的な対応をトリガーするために、すべての人に見えるコメントまたは問題を宣言できます
+
+notFound:
+  meta:
+    title: ページが見つかりません
+    keywords: 見つかりません
+    description: ページが存在しません

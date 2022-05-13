@@ -1,0 +1,14 @@
+
+<Files .htaccess>  
+    Order Allow,Deny
+    Deny from All
+</Files>
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (da|de|en|es|fi|fr|it|ja|nb|nl|pt|sv|tr)/(download|support|policy|format|adjust|assemble|export)?$ /index.html [L]
+
+ErrorDocument 404 /404.html
+

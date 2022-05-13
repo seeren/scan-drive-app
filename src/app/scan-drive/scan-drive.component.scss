@@ -1,0 +1,65 @@
+@import "./../../assets/scss/@backgrounds.scss";
+
+scan-drive {
+    background-color: #fafafa;
+    hyphens: auto;
+    video {
+        margin-top: 2em;
+        max-height: 75vh;
+        max-width: 100%;
+        width: 100%;
+    }
+    .hero {
+        @include backgrounds;
+        background-attachment: fixed;
+        overflow: hidden;
+        hyphens: auto;
+        .bordered {
+            text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
+                1px -1px 0 #fff, -1px 1px 0 #fff;
+        }
+        .logo {
+            width: 2em;
+        }
+        .hero-step {
+            &::before {
+                content: "";
+                width: 2px;
+                height: 100%;
+                background-color: var(--dark-color);
+                position: absolute;
+            }
+            &.is-half-step::before {
+                height: 50%;
+            }
+            &.is-first-step::before {
+                bottom: 0;
+            }
+            &.is-last-step::before {
+                top: 0;
+            }
+            .tag {
+                position: relative;
+                z-index: 2;
+                border-radius: 50%;
+            }
+        }
+        .hero-link {
+            .material-icons {
+                width: 2em;
+            }
+        }
+        .hero-icon {
+            .material-icons {
+                font-size: 6em;
+            }
+        }
+        .download {
+            .material-icons {
+                padding-left: 0.5em;
+                width: 1.25em;
+                font-size: inherit;
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+app:
+  title: Scan Drive
+  navbar:
+    download: İndirmek
+    support: Destek
+    features: Funktioner
+    featuresItems:
+      - Formatera
+      - Att justera
+      - Att bygga ihop
+      - Exportera
+  footer:
+    baseline: Intuitiv skanning till PDF tillgänglig på Google Play och App Store
+
+scanDrive:
+  meta:
+    title: Bärbar PDF-skanner
+    keywords: bärbar skanner
+    description: PDF Portable Scanner - Scan Drive - Få professionella skanningar intuitivt med din smartphone och Scan Drive Portable Scanner
+  title: Bärbar PDF-skanner
+  description: Få professionella skanningar intuitivt med din smartphone och den bärbara Scan Drive-skannern
+  features:
+    format:
+      title: Formatera
+      description: Ställ in storleken på en skanning
+    adjust:
+      title: Att justera
+      description: Retuschskanning
+    assemble:
+      title: Att bygga ihop
+      description: Slå samman flera dokument
+    export:
+      title: Exportera
+      description: Skanna till PDF
+  install: Installera
+
+format:
+  meta:
+    title: Skanningsstorlek
+    keywords: skanningsstorlek
+    description: Scan Format - Scan Drive - Flera dokumentformat för olika storlekar i stående, liggande, färg eller svartvitt
+  title: Ställ in skanningsstorlek
+  description: Flera dokumentformat för olika storlekar i stående, liggande, färg eller svartvitt tillåter formateringsskanning
+  features:
+    format:
+      title: Definiera format
+      description: För att tvinga skanningen att respektera exakta proportioner är det möjligt att välja ett PDF-exportformat
+      formatList:
+        label: storlekar
+        a3: A3
+        a4: A4
+        a5: A5
+        a6: A6
+        a7: A7
+        creditCard: Kredit- och visitkort
+        americanLetter: Amerikanskt brev
+    orientation:
+      title: Välj orientering
+      description: Ändra orienteringen för skanning till PDF
+      orientationList:
+        label: Vägledning
+        landscape: Landsbygden
+        portrait: Porträtt
+    colorimetry:
+      title: Justera kolorimetrin
+      description: Skanna i gråskala för att få en rendering trogen en fotokopia
+      colorimetryList:
+        label: Kolorimetri
+        color: Färg
+        grayScale: Nyanser av grå
+
+adjust:
+  meta:
+    title: Taranmış bir görüntüyü kırpın
+    keywords: kırpma resmi
+    description: Taranan bir görüntüyü kırpın - Tarama Sürücüsü - Hareketin karşı açısında büyütülmüş bir önizleme sağlayan tutamaçlarla hassas bir şekilde kırpın
+  title: Taranmış bir görüntüyü kırpın
+  description: Harekete zıt açıda büyütülmüş bir önizleme sağlayan tutamaçlarla hassas bir şekilde kırpın
+  features:
+    crop:
+      title: Kesimi Ayarla
+      description: Tam ekran önizleme, gerçekleştirilen taramanın daha iyi anlaşılmasını sağlar. Bir tutamaç seçildiğinde, kırpılan alanın yakınlaştırılması için tutamacın karşısındaki köşede yer açmak için eylem düğmeleri kaybolur
+      cropList:
+        label: parlaklık
+        minimum: -100
+        maximum: "+100"
+    contrast:
+      title: Kontrastı ayarla
+      description: Kontrastı artırarak metin arka plana göre vurgulanabilir veya azaltılabilir, bu ayarlamaları kırpma sırasında ve doğrulamadan önce yapabilirsiniz.
+      contrastList:
+        label: zıtlıklar
+        minimum: -100
+        maximum: "+100"
+    brightness:
+      title: Parlaklığı ayarla
+      description: Parlaklığı artırarak, kötü aydınlatmayı düzeltmek için arka plan daha az nüanslı ve daha tek renkli olabilir
+      brightnessList:
+        label: parlaklık
+        minimum: -100
+        maximum: "+100"
+
+assemble:
+  meta:
+    title: PDF birleştirme
+    keywords: PDF birleştirme
+    description: PDF'yi Birleştir - Tarama Sürücüsü - Tüm belgelerin önizlemesi, birleştirme pdf gibi bir dışa aktarma biçimi seçmeden önce bunları yeniden düzenlemeyi kolaylaştırır
+  title: PDF'yi birleştirin, birden çok taramayı tek bir dosyada yapın
+  description: Tüm belgelerin önizlemesi, birleştirme pdf gibi bir dışa aktarma biçimi seçmeden önce bunları yeniden düzenlemeyi kolaylaştırır
+  features:
+    rename:
+      title: Yeniden isimlendirmek
+      description: Tarama oturumuna bir ad verin, dışa aktarılan dosyanın adına karşılık gelecektir veya birden fazla dosyada dışa aktarma durumunda önek olarak kullanılacaktır.
+    organise:
+      title: Düzenlemek
+      description: Sürükle ve bırak ile belgenin konumunu değiştirin. Ayrıca önizlemek veya silmek için bir belge seçebilir ve daha fazlasını ekleyebilirsiniz.
+    rotate:
+      title: Döndürmek
+      description: Tarama, format dikeyken baş aşağı veya yatay olarak yapıldıysa endişelenmeyin, son bir değişiklik mümkündür
+    proportion:
+      title: Oran
+      description: Belirli bir formatın boyutlarına sahip bir taramayı dışa aktarmak istiyorsanız, taramanın oranlarını buna uyacak şekilde değiştirmek mümkündür.
+      proportionList:
+        label: oranlar
+        minimum: Orijinal
+        maximum: Düzeltilmiş
+    export:
+      title: Ihracat
+      description: Her taramayı bir görüntü olarak dışa aktarın veya PDF formatında birleştirin. Tüm taramalarda metin tanıma (OCR) metin biçimiyle sunulur
+      exportList:
+        label: uzantılar
+        jpg: JPG
+        pdf: PDF
+        txt: TXT
+
+export:
+  meta:
+    title: Bir belgeyi PDF'ye tarayın
+    keywords: pdf tarayıcı
+    description: Bir belgeyi PDF'de tarayın - Tarama Sürücüsü - Taranan belge, PDF biçiminde tek bir dosyada ve ayrı ayrı JPG biçiminde dışa aktarılabilir
+  title: Bir belgeyi PDF'ye tarayın
+  description: Taranan belge tek bir dosyada PDF formatında ve ayrı ayrı JPG formatında dışa aktarılabilir
+  features:
+    pdf:
+      title: PDF
+      description: Tüm taramalar, belge ayarlanırken belirtilen boyutlar ve yön ile tek bir PDF dosyasına aktarılır
+    image:
+      title: Resim
+      description: Her tarama için ".jpg" formatında görüntü dosyalarına dışa aktarır
+    text:
+      title: Metin
+      description: Tüm taramalar için metnin tanınması ve çıkarılması, ".txt" formatında bir dosyada dışa aktarılır. Bu özellik için, bir işleme ilerleme göstergesi, başlatma ve ardından talebi iptal etme olasılığı ile çıkarma aşamasının bildirilmesini önerir.
+
+download:
+  meta:
+    title: Tarayıcıyı İndir
+    keywords: tarayıcıyı İndir
+    description: Tarayıcıyı İndirin - Sürücüyü Tara - Google Play ve App Store'da mevcut
+  subtitle: Google Play ve App Store'da mevcut
+
+policy:
+  meta:
+    title: Gizlilik ve Kullanım Politikası
+    keywords: Gizlilik Politikası
+    description: Gizlilik ve Kullanım Politikası - Tarama Sürücüsü - Sezgisel ve Sorumlu Tarama
+  title: Gizlilik ve Kullanım Politikası
+  description: Sezgisel ve sorumlu tarama
+  personal:
+    title: Kişisel bilgi
+    content: Hiçbir kişisel bilgi toplanmaz veya üçüncü taraf hizmetlerine iletilmez
+  storage:
+    title: Depolamak
+    content: Dosyaları yedeklemeyle ilgili kendi açık eyleminiz olmadan cihazınızda hiçbir bilgi depolanmaz
+  authorization:
+    title: izinler
+    content: Scan Drive, yalnızca ihtiyacınız olduğunda kamera kullanımına izin vermenizi ister. Scan Drive, yalnızca açıkça istediğinizde dosyaları cihazınızda depolamak için izin ister
+  content:
+    title: İçerik
+    content: Tüm içeriğe internet bağlantısı gerekmeden erişilebilir
+  scanDrive:
+    - Scan Drive, 15 Ekim 2011'den bu yana halka açık SEEREN RCS 535 247 936 00011 Code APE 6209Z'nin dijital bir ürünüdür. Merkez ofis 1 Impasse des Oeillets Agde 34300 - Fransa, diğer bilgisayar etkinlikleri iş sektöründe uzmanlaşmıştır. Cyril Ichti yayın yönetmeni ve yazı işleri müdürüdür
+    - Seeren, hizmetin uygunsuz kullanımından hiçbir şekilde sorumlu tutulamaz. Uygulamayı kullanarak, bu koşulları okuduğunuzu ve kabul ettiğinizi kabul etmektesiniz. Bunlar herhangi bir zamanda ve haber verilmeksizin değiştirilebilir
+    - Sitedeki metinlerin, resimlerin, belgelerin kağıt ortamında kısmen çoğaltılmasına izin verilir, ücretsiz dağıtıma tabidir, değişiklik veya değişiklik yapılmadan ve kaynak adresinin yanı sıra telif hakkı bildiriminin gösterilmesine tabidir - tüm hakları saklıdır Scan Drive - SEEREN SAS
+
+support:
+  meta:
+    title: Destek olmak Scan Drive
+    keywords: destek olmak scan drive
+    description: Destek olmak Scan Drive - Scan Drive - Google Play ve App Store'da mevcut
+  title: Destek olmak
+  description: Açıklamalar veya sorunlar olması durumunda
+  mail:
+    title: Bize yazılı olarak ulaşın
+    content: Aktif destek ile bize e-posta ile ulaşabilirsiniz.
+  online:
+    title: Açıkça katkıda bulunun
+    content: Uygulamanın bir güncellemesinin mevcudiyeti ile teknik bir yanıtı tetiklemek için herkesin görebileceği bir açıklama veya sorun bildirebilirsiniz.
+
+notFound:
+  meta:
+    title: Sayfa bulunamadı
+    keywords: bulunamadı
+    description: Sayfa mevcut değil
