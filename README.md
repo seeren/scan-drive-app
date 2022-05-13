@@ -1,6 +1,6 @@
 # Scan Drive app
 
-Static website for scan-drive mobile applicaiton
+Static website for scan-drive mobile application
 
 ___
 
