@@ -158,7 +158,7 @@ policy:
   description: Numérisation intuitive et responsable
   personal:
     title: Information personelle
-    content: Aucune information personnelle n'est ne collecter ni transmise à des services tiers
+    content: Aucune information personnelle n'est  collecté ou transmise à des services tiers
   storage:
     title: Stockage
     content: Aucune information n'est stockée sur votre appareil sans votre propre action explicite liée à la sauvegarde des fichiers
