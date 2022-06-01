@@ -5,7 +5,7 @@ scan-drive {
     hyphens: auto;
     video {
         margin-top: 2em;
-        max-height: 75vh;
+        height: calc(75vh - 2em);
         max-width: 100%;
         width: 100%;
     }
@@ -14,9 +14,8 @@ scan-drive {
         background-attachment: fixed;
         overflow: hidden;
         hyphens: auto;
-        .bordered {
-            text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
-                1px -1px 0 #fff, -1px 1px 0 #fff;
+        &.baseline {
+            min-height: 25vh;
         }
         .logo {
             width: 2em;

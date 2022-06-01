@@ -1,1 +1,23 @@
-app-footer { }
+app-footer {
+    &.instagram {
+        background-image: url(assets/images/socials/instagram.png);
+    }
+    &.facebook {
+        background-image: url(assets/images/socials/facebook.png);
+    }
+    &.twiter {
+        background-image: url(assets/images/socials/instagram.png);
+    }
+    &.youtube {
+        background-image: url(assets/images/socials/youtube.png);
+    }
+    &.tiktok {
+        background-image: url(assets/images/socials/tiktok.svg);
+    }
+    .social {
+        padding-bottom: 3rem;
+    }
+    img {
+        height: 2em;
+    }
+}
