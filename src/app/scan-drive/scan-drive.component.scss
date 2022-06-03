@@ -17,6 +17,9 @@ scan-drive {
         &.baseline {
             min-height: 25vh;
         }
+        &.is-large {
+            min-height: 40vh;
+        }
         .logo {
             width: 2em;
         }
