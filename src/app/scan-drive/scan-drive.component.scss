@@ -11,6 +11,9 @@ scan-drive {
     }
     .hero {
         @include backgrounds;
+        -webkit-backgound-attachment: cover;
+        -o-backgound-attachment: cover;
+        -moz-backgound-attachment: cover;
         background-attachment: fixed;
         overflow: hidden;
         hyphens: auto;
